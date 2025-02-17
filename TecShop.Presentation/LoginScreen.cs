@@ -1,19 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TechShop.BusinessLogic;
 
 namespace TecShop.Presentation
 {
+    
     public partial class LoginScreen : Form
     {
+        UserService userService;
+
         public LoginScreen()
         {
+            userService = new UserService(ConfigurationManager.ConnectionStrings["TechShop"].ConnectionString);
             InitializeComponent();
         }
 
@@ -25,7 +31,7 @@ namespace TecShop.Presentation
 
         private void lb_closeLogin_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
 
         }
 
@@ -43,5 +49,46 @@ namespace TecShop.Presentation
             else
                 tb_Password.UseSystemPasswordChar = true;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (validate())
+            {
+                if (userService.authenticateUser(tb_UserName.Text, tb_Password.Text))
+                {
+                    UserDashBoard userDashboard = new UserDashBoard();
+                    userDashboard.Show();
+                    this.Close();
+                }
+                else if (userService.authenticateAdmin(tb_UserName.Text, tb_Password.Text)) {
+                    AdminDashBoard adminDashboard = new AdminDashBoard();
+                    adminDashboard.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid username or password. Please try again.");
+
+                }
+
+            }
+
+        }
+        private bool validate()
+        {
+            if (string.IsNullOrWhiteSpace(tb_UserName.Text))
+            {
+                MessageBox.Show("Username cannot be empty.");
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(tb_Password.Text))
+            {
+                MessageBox.Show("Password cannot be empty.");
+                return false;
+            }
+            return true;
+        }
+
     }
 }

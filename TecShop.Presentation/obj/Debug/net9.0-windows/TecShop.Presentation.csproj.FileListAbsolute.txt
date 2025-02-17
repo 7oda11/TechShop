@@ -64,3 +64,7 @@ D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\bin\Debug\net9.0-
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.WelcomeScreen.resources
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.SinUpSCreen.resources
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.LoginScreen.resources
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.AdminDashBoard.resources
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserDashBoard.resources
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.sourcelink.json
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserManagementForm.resources

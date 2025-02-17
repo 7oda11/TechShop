@@ -294,6 +294,7 @@ namespace TecShop.Presentation
             button1.TabIndex = 18;
             button1.Text = "LOGIN";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // tb_Password
             // 
@@ -338,9 +339,9 @@ namespace TecShop.Presentation
             lb_Email.ForeColor = Color.FromArgb(64, 64, 64);
             lb_Email.Location = new Point(211, 167);
             lb_Email.Name = "lb_Email";
-            lb_Email.Size = new Size(64, 28);
+            lb_Email.Size = new Size(116, 28);
             lb_Email.TabIndex = 14;
-            lb_Email.Text = "Email";
+            lb_Email.Text = "User Name";
             // 
             // lb_welcomeLogin
             // 
@@ -359,7 +360,7 @@ namespace TecShop.Presentation
             lb_closeLogin.Cursor = Cursors.Hand;
             lb_closeLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lb_closeLogin.ForeColor = Color.FromArgb(52, 152, 219);
-            lb_closeLogin.Location = new Point(842, 582);
+            lb_closeLogin.Location = new Point(842, 615);
             lb_closeLogin.Name = "lb_closeLogin";
             lb_closeLogin.Size = new Size(106, 28);
             lb_closeLogin.TabIndex = 23;

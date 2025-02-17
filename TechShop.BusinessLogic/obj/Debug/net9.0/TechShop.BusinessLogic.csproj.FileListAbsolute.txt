@@ -13,3 +13,4 @@ D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.
 D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\refint\TechShop.BusinessLogic.dll
 D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.pdb
 D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\ref\TechShop.BusinessLogic.dll
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.sourcelink.json
