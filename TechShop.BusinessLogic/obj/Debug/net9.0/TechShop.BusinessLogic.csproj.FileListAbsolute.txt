@@ -1,0 +1,15 @@
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\bin\Debug\net9.0\TechShop.BusinessLogic.deps.json
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\bin\Debug\net9.0\TechShop.BusinessLogic.dll
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\bin\Debug\net9.0\TechShop.BusinessLogic.pdb
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\bin\Debug\net9.0\TechShop.DataAccess.dll
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\bin\Debug\net9.0\TechShop.DataAccess.pdb
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.csproj.AssemblyReference.cache
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.AssemblyInfoInputs.cache
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.AssemblyInfo.cs
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.A633B50E.Up2Date
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.dll
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\refint\TechShop.BusinessLogic.dll
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\TechShop.BusinessLogic.pdb
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.BusinessLogic\obj\Debug\net9.0\ref\TechShop.BusinessLogic.dll

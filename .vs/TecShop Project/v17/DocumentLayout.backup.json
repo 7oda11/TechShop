@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\iti\\windows form \u0026 ado\\tecshop project\\tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\iti\\windows form \u0026 ado\\tecshop project\\tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\iti\\windows form \u0026 ado\\tecshop project\\tecshop.presentation\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\iti\\windows form \u0026 ado\\tecshop project\\tecshop.presentation\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\iti\\windows form \u0026 ado\\tecshop project\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\iti\\windows form \u0026 ado\\tecshop project\\tecshop.presentation\\loginscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\iti\\windows form \u0026 ado\\tecshop project\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SinUpSCreen.cs",
+              "DocumentMoniker": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\SinUpSCreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\SinUpSCreen.cs",
+              "ToolTip": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\SinUpSCreen.cs*",
+              "RelativeToolTip": "TecShop.Presentation\\SinUpSCreen.cs*",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowHQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T05:04:42.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SinUpSCreen.cs [Design]",
+              "DocumentMoniker": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\SinUpSCreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\SinUpSCreen.cs",
+              "ToolTip": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\SinUpSCreen.cs [Design]*",
+              "RelativeToolTip": "TecShop.Presentation\\SinUpSCreen.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T05:04:34.493Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WelcomeScreen.cs",
+              "DocumentMoniker": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\WelcomeScreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\WelcomeScreen.cs",
+              "ToolTip": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\WelcomeScreen.cs*",
+              "RelativeToolTip": "TecShop.Presentation\\WelcomeScreen.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T05:04:04.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomeScreen.cs [Design]",
+              "DocumentMoniker": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\WelcomeScreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\WelcomeScreen.cs",
+              "ToolTip": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\WelcomeScreen.cs [Design]*",
+              "RelativeToolTip": "TecShop.Presentation\\WelcomeScreen.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T05:04:01.229Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginScreen.cs [Design]",
+              "DocumentMoniker": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\LoginScreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
+              "ToolTip": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\LoginScreen.cs [Design]*",
+              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:56:19.551Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginScreen.Designer.cs",
+              "DocumentMoniker": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\LoginScreen.Designer.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.Designer.cs",
+              "ToolTip": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\LoginScreen.Designer.cs*",
+              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.Designer.cs*",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAcwHEBAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:54:13.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginScreen.cs",
+              "DocumentMoniker": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\LoginScreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
+              "ToolTip": "D:\\ITI\\Windows Form \u0026 ADO\\TecShop Project\\TecShop.Presentation\\LoginScreen.cs*",
+              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:54:09.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
