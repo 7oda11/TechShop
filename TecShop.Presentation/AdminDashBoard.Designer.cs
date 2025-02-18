@@ -146,6 +146,7 @@
             btn_manageProducts.TabIndex = 16;
             btn_manageProducts.Text = "Manage Products";
             btn_manageProducts.UseVisualStyleBackColor = false;
+            btn_manageProducts.Click += btn_manageProducts_Click;
             // 
             // btn_manageCategories
             // 
@@ -160,6 +161,7 @@
             btn_manageCategories.TabIndex = 17;
             btn_manageCategories.Text = "Manage Categories";
             btn_manageCategories.UseVisualStyleBackColor = false;
+            btn_manageCategories.Click += btn_manageCategories_Click;
             // 
             // btn_logout
             // 

@@ -68,3 +68,5 @@ D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserDashBoard.resources
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.sourcelink.json
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserManagementForm.resources
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.ProductManagementForm.resources
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.CategoryManagementForm.resources

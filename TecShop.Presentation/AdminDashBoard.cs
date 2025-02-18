@@ -30,5 +30,19 @@ namespace TecShop.Presentation
             userManagementForm.Show();
             this.Close();
         }
+
+        private void btn_manageProducts_Click(object sender, EventArgs e)
+        {
+            ProductManagementForm productManagementForm = new ProductManagementForm();
+            productManagementForm.Show();
+            this.Close();
+        }
+
+        private void btn_manageCategories_Click(object sender, EventArgs e)
+        {
+            CategoryManagementForm categoryManagementForm = new CategoryManagementForm();
+            categoryManagementForm.Show();
+            this.Close();
+        }
     }
 }
