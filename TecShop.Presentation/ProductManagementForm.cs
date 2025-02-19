@@ -14,11 +14,13 @@ namespace TecShop.Presentation
 {
     public partial class ProductManagementForm : Form
     {
+        DataTable User;
         ProductService productService;
-        public ProductManagementForm()
+        public ProductManagementForm(DataTable user)
         {
             productService = new ProductService(ConfigurationManager.ConnectionStrings["TechShop"].ConnectionString);
             InitializeComponent();
+            User = user;
         }
 
         private void ProductManagementForm_Load(object sender, EventArgs e)
@@ -41,7 +43,7 @@ namespace TecShop.Presentation
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-            AdminDashBoard adminDashBoard = new AdminDashBoard();
+            AdminDashBoard adminDashBoard = new AdminDashBoard(User);
             adminDashBoard.Show();
             this.Close();
         }

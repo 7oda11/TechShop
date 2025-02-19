@@ -54,14 +54,18 @@ namespace TecShop.Presentation
         {
             if (validate())
             {
-                if (userService.authenticateUser(tb_UserName.Text, tb_Password.Text))
+                if (userService.authenticateUser(tb_UserName.Text, tb_Password.Text ))
                 {
+                   
                     UserDashBoard userDashboard = new UserDashBoard();
                     userDashboard.Show();
                     this.Close();
                 }
                 else if (userService.authenticateAdmin(tb_UserName.Text, tb_Password.Text)) {
-                    AdminDashBoard adminDashboard = new AdminDashBoard();
+
+                    DataTable User = userService.authenticateAdminData(tb_UserName.Text, tb_Password.Text);
+                    AdminProfileManagementForm adminProfileManagementForm = new AdminProfileManagementForm(User);
+                    AdminDashBoard adminDashboard = new AdminDashBoard(User);
                     adminDashboard.Show();
                     this.Close();
                 }

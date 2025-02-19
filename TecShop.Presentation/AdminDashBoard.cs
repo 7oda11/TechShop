@@ -12,8 +12,10 @@ namespace TecShop.Presentation
 {
     public partial class AdminDashBoard : Form
     {
-        public AdminDashBoard()
+        DataTable UserData;
+        public AdminDashBoard(DataTable user)
         {
+            UserData = user;
             InitializeComponent();
         }
 
@@ -26,23 +28,35 @@ namespace TecShop.Presentation
 
         private void btn_manageUsers_Click(object sender, EventArgs e)
         {
-            UserManagementForm userManagementForm = new UserManagementForm();
+            UserManagementForm userManagementForm = new UserManagementForm(UserData);
             userManagementForm.Show();
             this.Close();
         }
 
         private void btn_manageProducts_Click(object sender, EventArgs e)
         {
-            ProductManagementForm productManagementForm = new ProductManagementForm();
+            ProductManagementForm productManagementForm = new ProductManagementForm(UserData);
             productManagementForm.Show();
             this.Close();
         }
 
         private void btn_manageCategories_Click(object sender, EventArgs e)
         {
-            CategoryManagementForm categoryManagementForm = new CategoryManagementForm();
+            CategoryManagementForm categoryManagementForm = new CategoryManagementForm(UserData);
             categoryManagementForm.Show();
             this.Close();
+        }
+
+        private void btn_adminProfile_Click(object sender, EventArgs e)
+        {
+            AdminProfileManagementForm adminProfile = new AdminProfileManagementForm(UserData);
+            adminProfile.Show();
+            this.Close();
+        }
+
+        private void AdminDashBoard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using TechShop.DataAccess;
@@ -23,17 +24,29 @@ namespace TechShop.BusinessLogic
             int rowAffected=dbContext.ExecuteNonQuery(query);
             return rowAffected;
         }
-        public bool authenticateUser(string userName,string password)
+        public bool authenticateUser(string userName,string password )
         {
             string query = $"select [Username],[Password] from Users where Password='{password}' and Username='{userName}'and Role='User'";
             DataTable dataTable=dbContext.ExecuteQuery(query);
+           
+
             return dataTable.Rows.Count > 0;
         }
         public bool authenticateAdmin(string userName, string password)
         {
             string query = $"select [Username],[Password] from Users where Password='{password}' and Username='{userName}'and Role='Admin'";
             DataTable dataTable = dbContext.ExecuteQuery(query);
+           
+
             return dataTable.Rows.Count > 0;
+        }
+        public DataTable authenticateAdminData(string userName, string password)
+        {
+            string query = $"select [UserId],[Username],[Password],[Email],[Age],[Address],[Role] from Users where  Username='{userName}'and Role='Admin'";
+            DataTable dataTable = dbContext.ExecuteQuery(query);
+
+
+            return dataTable;
         }
         public DataTable getAllUsers()
         {
@@ -54,6 +67,19 @@ namespace TechShop.BusinessLogic
         {
             string query = $"DELETE FROM Users WHERE UserID = {userId}";
 
+            int rowAffected = dbContext.ExecuteNonQuery(query);
+            return rowAffected;
+        }
+        public int updateUserProfile(int userId, string userName,  string email, int age, string address)
+        {
+            string query = $"UPDATE Users SET UserName = '{userName}', Email = '{email}', Age = {age}, Address = '{address}' WHERE UserID = {userId}";
+            int rowAffected = dbContext.ExecuteNonQuery(query);
+            return rowAffected;
+
+
+        }
+        public int UpdateUserPassword(int id,string userName, string password) {
+            string query = $"UPDATE Users SET UserName = '{userName}', Password = '{password}' WHERE UserID = {id}";
             int rowAffected = dbContext.ExecuteNonQuery(query);
             return rowAffected;
         }

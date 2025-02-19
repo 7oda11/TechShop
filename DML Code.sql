@@ -13,3 +13,4 @@ select [CategoryId],[CategoryName] from Categories
 insert into Categories ([CategoryName]) values('akd');
 update Categories set CategoryName='' where CategoryId=
 delete from Categories where CategoryId=
+update Users set 

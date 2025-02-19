@@ -191,6 +191,7 @@
             btn_adminProfile.TabIndex = 19;
             btn_adminProfile.Text = "Manage Profile";
             btn_adminProfile.UseVisualStyleBackColor = false;
+            btn_adminProfile.Click += btn_adminProfile_Click;
             // 
             // AdminDashBoard
             // 
@@ -207,6 +208,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "AdminDashBoard";
             Text = "AdminDashBoard";
+            Load += AdminDashBoard_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -14,16 +14,18 @@ namespace TecShop.Presentation
 {
     public partial class CategoryManagementForm : Form
     {
+        DataTable User;
         CategoryService categoryService;
-        public CategoryManagementForm()
+        public CategoryManagementForm(DataTable user)
         {
             categoryService = new CategoryService(ConfigurationManager.ConnectionStrings["TechShop"].ConnectionString);
             InitializeComponent();
+            User = user;
         }
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-            AdminDashBoard adminDashBoard = new AdminDashBoard();
+            AdminDashBoard adminDashBoard = new AdminDashBoard(User);
             adminDashBoard.Show();
             this.Close();
 
