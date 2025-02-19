@@ -59,6 +59,7 @@
             btn_manageFavorites.TabIndex = 18;
             btn_manageFavorites.Text = "Manage Favorites";
             btn_manageFavorites.UseVisualStyleBackColor = false;
+            btn_manageFavorites.Click += btn_manageFavorites_Click;
             // 
             // btn_manageUserProfile
             // 
@@ -102,6 +103,7 @@
             btn_viewProduucts.TabIndex = 21;
             btn_viewProduucts.Text = "View Products";
             btn_viewProduucts.UseVisualStyleBackColor = false;
+            btn_viewProduucts.Click += btn_viewProduucts_Click;
             // 
             // UserDashBoard
             // 

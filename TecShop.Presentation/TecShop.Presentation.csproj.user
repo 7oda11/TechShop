@@ -25,6 +25,12 @@
     <Compile Update="UserDashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserForms\ViewFavoritesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserForms\ViewProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UserManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>

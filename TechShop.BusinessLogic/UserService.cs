@@ -48,6 +48,14 @@ namespace TechShop.BusinessLogic
 
             return dataTable;
         }
+        public DataTable authenticateUserData(string userName, string password)
+        {
+            string query = $"select [UserId],[Username],[Password],[Email],[Age],[Address],[Role] from Users where  Username='{userName}'and Role='User'";
+            DataTable dataTable = dbContext.ExecuteQuery(query);
+
+
+            return dataTable;
+        }
         public DataTable getAllUsers()
         {
             string query = "select [UserId],[Username],[Password],[Email],[Age],[Address],[Role] from Users";

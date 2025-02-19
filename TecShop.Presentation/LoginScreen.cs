@@ -56,8 +56,8 @@ namespace TecShop.Presentation
             {
                 if (userService.authenticateUser(tb_UserName.Text, tb_Password.Text ))
                 {
-                   
-                    UserDashBoard userDashboard = new UserDashBoard();
+                    DataTable User = userService.authenticateUserData(tb_UserName.Text, tb_Password.Text);
+                    UserDashBoard userDashboard = new UserDashBoard(User);
                     userDashboard.Show();
                     this.Close();
                 }

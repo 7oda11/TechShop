@@ -48,6 +48,20 @@ namespace TechShop.BusinessLogic
             int rowAffected=dbContext.ExecuteNonQuery (query);
             return rowAffected;
         }
+        public DataTable ProductDataFavorite(int id)
+        {
+            string query=$"SELECT p.[ProductId],     p.[ProductName],    p.[Price],     c.[CategoryName] FROM Products p JOIN Categories c ON p.CategoryId = c.CategoryId WHERE NOT EXISTS (    SELECT 1     FROM Favorites f     WHERE f.ProductId = p.ProductId     AND f.UserId = {id});";
+            DataTable dataTable = new DataTable();
+            dataTable =dbContext.ExecuteQuery(query);
+            return dataTable;
+        }
+        public DataTable ProductDataFavoriteExist(int id)
+        {
+            string query = $"SELECT p.[ProductId],     p.[ProductName],    p.[Price],     c.[CategoryName] FROM Products p JOIN Categories c ON p.CategoryId = c.CategoryId WHERE  EXISTS (    SELECT 1     FROM Favorites f     WHERE f.ProductId = p.ProductId     AND f.UserId = {id});";
+            DataTable dataTable = new DataTable();
+            dataTable = dbContext.ExecuteQuery(query);
+            return dataTable;
+        }
 
     }
 }
