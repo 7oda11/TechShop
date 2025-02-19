@@ -74,6 +74,7 @@
             btn_manageUserProfile.TabIndex = 19;
             btn_manageUserProfile.Text = "Manage Profile";
             btn_manageUserProfile.UseVisualStyleBackColor = false;
+            btn_manageUserProfile.Click += btn_manageUserProfile_Click;
             // 
             // btn_logout
             // 

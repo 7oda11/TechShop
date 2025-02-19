@@ -1,6 +1,7 @@
 use TechShop
 insert into Users ([Username],[Password],[Email],[Age],[Address],[Role])
 values("");
+select [UserId],[Username],[Password],[Email],[Age],[Address],[Role] from Users where Role=''
 select * from Users;
 select * from Products
 select * from Categories

@@ -74,3 +74,5 @@ D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.AdminChangePasswordForm.resources
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserForms.ViewProductForm.resources
 D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserForms.ViewFavoritesForm.resources
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserForms.UserChangePasswordForm.resources
+D:\ITI\Windows Form & ADO\TecShop Project\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.UserForms.UserProfileManagementForm.resources

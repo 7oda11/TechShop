@@ -36,8 +36,15 @@ namespace TecShop.Presentation
 
         private void btn_manageFavorites_Click(object sender, EventArgs e)
         {
-            ViewFavoritesForm viewFav=new ViewFavoritesForm(User);  
+            ViewFavoritesForm viewFav = new ViewFavoritesForm(User);
             viewFav.Show();
+            this.Close();
+        }
+
+        private void btn_manageUserProfile_Click(object sender, EventArgs e)
+        {
+            UserProfileManagementForm userProfileManagementForm = new UserProfileManagementForm(User);  
+            userProfileManagementForm.Show();
             this.Close();
         }
     }

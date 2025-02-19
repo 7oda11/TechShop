@@ -153,12 +153,16 @@ namespace TecShop.Presentation
             nud_age.Value = 0; // Reset age to 0
             cb_role.SelectedIndex = -1; // Unselect role
         }
+        int id;
         private void loadDataOnGridView()
         {
+            DataRow userRow = User.Rows[0];
+            //MessageBox.Show(userRow.ToString());
+            id = Convert.ToInt32(userRow["UserId"]);
             btn_add.Show();
             btn_delete.Hide();
             btn_update.Hide();
-            dvg_users.DataSource = userService.getAllUsers();
+            dvg_users.DataSource = userService.getAllUsers(id);
 
         }
 
@@ -212,7 +216,7 @@ namespace TecShop.Presentation
                     int rowsAffected = userService.updateUser(
                         userId,
                         txt_userName.Text,
-                        txt_password.Text, // Ensure this is stored securely (hashed) in your database
+                        txt_password.Text, 
                         txt_email.Text,
                         (int)nud_age.Value,
                         txt_address.Text,

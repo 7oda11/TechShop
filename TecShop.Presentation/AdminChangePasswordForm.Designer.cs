@@ -59,12 +59,12 @@
             cb_newPassword.AutoSize = true;
             cb_newPassword.Font = new Font("Segoe UI", 12F);
             cb_newPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            cb_newPassword.Location = new Point(767, 299);
+            cb_newPassword.Location = new Point(708, 299);
             cb_newPassword.Margin = new Padding(3, 4, 3, 4);
             cb_newPassword.Name = "cb_newPassword";
-            cb_newPassword.Size = new Size(168, 32);
+            cb_newPassword.Size = new Size(212, 32);
             cb_newPassword.TabIndex = 24;
-            cb_newPassword.Text = "Show Password";
+            cb_newPassword.Text = "Show New Password";
             cb_newPassword.UseVisualStyleBackColor = true;
             cb_newPassword.CheckedChanged += cb_newPassword_CheckedChanged;
             // 
@@ -97,12 +97,12 @@
             cb_oldPassword.AutoSize = true;
             cb_oldPassword.Font = new Font("Segoe UI", 12F);
             cb_oldPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            cb_oldPassword.Location = new Point(767, 195);
+            cb_oldPassword.Location = new Point(708, 195);
             cb_oldPassword.Margin = new Padding(3, 4, 3, 4);
             cb_oldPassword.Name = "cb_oldPassword";
-            cb_oldPassword.Size = new Size(288, 32);
+            cb_oldPassword.Size = new Size(202, 32);
             cb_oldPassword.TabIndex = 27;
-            cb_oldPassword.Text = "Show old Password Password";
+            cb_oldPassword.Text = "Show old Password";
             cb_oldPassword.UseVisualStyleBackColor = true;
             cb_oldPassword.CheckedChanged += cb_oldPassword_CheckedChanged;
             // 
@@ -135,12 +135,12 @@
             cb_confirmPassword.AutoSize = true;
             cb_confirmPassword.Font = new Font("Segoe UI", 12F);
             cb_confirmPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            cb_confirmPassword.Location = new Point(767, 414);
+            cb_confirmPassword.Location = new Point(708, 414);
             cb_confirmPassword.Margin = new Padding(3, 4, 3, 4);
             cb_confirmPassword.Name = "cb_confirmPassword";
-            cb_confirmPassword.Size = new Size(168, 32);
+            cb_confirmPassword.Size = new Size(243, 32);
             cb_confirmPassword.TabIndex = 30;
-            cb_confirmPassword.Text = "Show Password";
+            cb_confirmPassword.Text = "Show Confirm Password";
             cb_confirmPassword.UseVisualStyleBackColor = true;
             cb_confirmPassword.CheckedChanged += cb_confirmPassword_CheckedChanged;
             // 

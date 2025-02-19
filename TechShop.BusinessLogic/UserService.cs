@@ -48,6 +48,7 @@ namespace TechShop.BusinessLogic
 
             return dataTable;
         }
+        
         public DataTable authenticateUserData(string userName, string password)
         {
             string query = $"select [UserId],[Username],[Password],[Email],[Age],[Address],[Role] from Users where  Username='{userName}'and Role='User'";
@@ -56,16 +57,16 @@ namespace TechShop.BusinessLogic
 
             return dataTable;
         }
-        public DataTable getAllUsers()
+        public DataTable getAllUsers(int id)
         {
-            string query = "select [UserId],[Username],[Password],[Email],[Age],[Address],[Role] from Users";
+            string query = $"select [UserId],[Username],[Password],[Email],[Age],[Address],[Role] from Users where UserId!={id}";
             DataTable dataTable = new DataTable();
             dataTable= dbContext.ExecuteQuery(query);
             return dataTable;
         }
         public int updateUser(int userId, string userName, string password, string email, int age, string address, string role)
         {
-            string query = $"UPDATE Users SET UserName = '{userName}', Password = '{password}', Email = '{password}', Age = {age}, Address = '{address}', Role = '{role}' WHERE UserID = {userId}";
+            string query = $"UPDATE Users SET UserName = '{userName}', Password = '{password}', Email = '{email}', Age = {age}, Address = '{address}', Role = '{role}' WHERE UserID = {userId}";
             int rowAffected= dbContext.ExecuteNonQuery(query);
             return rowAffected;
 
