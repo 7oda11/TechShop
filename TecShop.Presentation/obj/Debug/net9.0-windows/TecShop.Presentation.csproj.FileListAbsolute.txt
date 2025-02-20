@@ -154,3 +154,4 @@ D:\Mohamoud\TecShop.Presentation\obj\Debug\net9.0-windows\refint\TecShop.Present
 D:\Mohamoud\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.pdb
 D:\Mohamoud\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.genruntimeconfig.cache
 D:\Mohamoud\TecShop.Presentation\obj\Debug\net9.0-windows\ref\TecShop.Presentation.dll
+D:\Mohamoud\TecShop.Presentation\obj\Debug\net9.0-windows\TecShop.Presentation.Properties.Resources.resources

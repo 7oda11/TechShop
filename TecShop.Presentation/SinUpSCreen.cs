@@ -116,5 +116,15 @@ namespace TecShop.Presentation
             loginScreen.Show();
             this.Close();
         }
+
+        private void numberic_Age_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
