@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Mohamoud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,13 +43,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WelcomeScreen.cs [Design]",
-              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\WelcomeScreen.cs",
-              "RelativeDocumentMoniker": "TecShop.Presentation\\WelcomeScreen.cs",
-              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\WelcomeScreen.cs [Design]*",
-              "RelativeToolTip": "TecShop.Presentation\\WelcomeScreen.cs [Design]*",
+              "Title": "LoginScreen.cs",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs*",
+              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs*",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAswGgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:17:06.793Z",
+              "WhenOpened": "2025-02-20T07:49:26.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginScreen.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs [Design]*",
+              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T07:45:49.914Z",
               "EditorCaption": " [Design]"
             }
           ]

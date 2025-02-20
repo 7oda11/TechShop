@@ -12,7 +12,7 @@ using TechShop.BusinessLogic;
 
 namespace TecShop.Presentation
 {
-    
+
     public partial class LoginScreen : Form
     {
         UserService userService;
@@ -54,14 +54,15 @@ namespace TecShop.Presentation
         {
             if (validate())
             {
-                if (userService.authenticateUser(tb_UserName.Text, tb_Password.Text ))
+                if (userService.authenticateUser(tb_UserName.Text, tb_Password.Text))
                 {
                     DataTable User = userService.authenticateUserData(tb_UserName.Text, tb_Password.Text);
                     UserDashBoard userDashboard = new UserDashBoard(User);
                     userDashboard.Show();
                     this.Close();
                 }
-                else if (userService.authenticateAdmin(tb_UserName.Text, tb_Password.Text)) {
+                else if (userService.authenticateAdmin(tb_UserName.Text, tb_Password.Text))
+                {
 
                     DataTable User = userService.authenticateAdminData(tb_UserName.Text, tb_Password.Text);
                     AdminProfileManagementForm adminProfileManagementForm = new AdminProfileManagementForm(User);
@@ -94,5 +95,14 @@ namespace TecShop.Presentation
             return true;
         }
 
+        private void lb_welcomeLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

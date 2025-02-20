@@ -63,6 +63,16 @@ namespace TecShop.Presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Close {
+            get {
+                object obj = ResourceManager.GetObject("Close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IconWelcome {
             get {
                 object obj = ResourceManager.GetObject("IconWelcome", resourceCulture);
@@ -76,6 +86,16 @@ namespace TecShop.Presentation.Properties {
         internal static System.Drawing.Bitmap iconWelcomScreen {
             get {
                 object obj = ResourceManager.GetObject("iconWelcomScreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imageLogin2 {
+            get {
+                object obj = ResourceManager.GetObject("imageLogin2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
