@@ -10,3 +10,16 @@ D:\ITI\Windows Form & ADO\TecShop Project\TechShop.DataAccess\obj\Debug\net9.0\T
 D:\ITI\Windows Form & ADO\TecShop Project\TechShop.DataAccess\obj\Debug\net9.0\refint\TechShop.DataAccess.dll
 D:\ITI\Windows Form & ADO\TecShop Project\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.pdb
 D:\ITI\Windows Form & ADO\TecShop Project\TechShop.DataAccess\obj\Debug\net9.0\ref\TechShop.DataAccess.dll
+D:\Mohamoud\TechShop.DataAccess\bin\Debug\net9.0\TechShop.DataAccess.deps.json
+D:\Mohamoud\TechShop.DataAccess\bin\Debug\net9.0\TechShop.DataAccess.dll
+D:\Mohamoud\TechShop.DataAccess\bin\Debug\net9.0\TechShop.DataAccess.pdb
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.csproj.AssemblyReference.cache
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.AssemblyInfoInputs.cache
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.AssemblyInfo.cs
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.csproj.CoreCompileInputs.cache
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.sourcelink.json
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.dll
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\refint\TechShop.DataAccess.dll
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.pdb
+D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\ref\TechShop.DataAccess.dll
