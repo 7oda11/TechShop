@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Mohamoud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\sinupscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\sinupscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\usermanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\usermanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\sinupscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -43,26 +55,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginScreen.cs",
-              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs",
-              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
-              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs",
-              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAswGgAAAAfAAAAAAAAAA==",
+              "Title": "SinUpSCreen.Designer.cs",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\SinUpSCreen.Designer.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\SinUpSCreen.Designer.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\SinUpSCreen.Designer.cs",
+              "RelativeToolTip": "TecShop.Presentation\\SinUpSCreen.Designer.cs",
+              "ViewState": "AgIAAL4BAAAAAAAAAAAWwMcBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:49:26.436Z",
+              "WhenOpened": "2025-02-20T08:34:34.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserManagementForm.Designer.cs",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserManagementForm.Designer.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\UserManagementForm.Designer.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserManagementForm.Designer.cs",
+              "RelativeToolTip": "TecShop.Presentation\\UserManagementForm.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAWwNkBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:34:34.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SinUpSCreen.cs",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\SinUpSCreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\SinUpSCreen.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\SinUpSCreen.cs",
+              "RelativeToolTip": "TecShop.Presentation\\SinUpSCreen.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswHoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:34:05.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginScreen.cs [Design]",
               "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs",
               "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
               "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs [Design]",
               "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:45:49.914Z",
+              "WhenOpened": "2025-02-20T08:21:25.425Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SinUpSCreen.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\SinUpSCreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\SinUpSCreen.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\SinUpSCreen.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\SinUpSCreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:14:17.371Z",
               "EditorCaption": " [Design]"
             }
           ]
