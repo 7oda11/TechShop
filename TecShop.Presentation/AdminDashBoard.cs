@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -56,7 +57,19 @@ namespace TecShop.Presentation
 
         private void AdminDashBoard_Load(object sender, EventArgs e)
         {
+            lb_welcomeLogin.Text = "Welcome " + UserData.Rows[0]["Username"].ToString();
+        }
 
+        private void lb_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
         }
     }
 }

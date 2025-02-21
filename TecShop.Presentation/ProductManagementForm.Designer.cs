@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btn_back = new Button();
-            btn_logout = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductManagementForm));
             btn_update = new Button();
             btn_add = new Button();
             btn_delete = new Button();
@@ -40,43 +39,25 @@
             nud_price = new NumericUpDown();
             txt_productName = new TextBox();
             dvg_products = new DataGridView();
+            lb_close = new PictureBox();
+            pc_LogOut = new PictureBox();
+            ic_back = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)nud_price).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dvg_products).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)lb_close).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pc_LogOut).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ic_back).BeginInit();
             SuspendLayout();
-            // 
-            // btn_back
-            // 
-            btn_back.Location = new Point(12, 12);
-            btn_back.Name = "btn_back";
-            btn_back.Size = new Size(94, 29);
-            btn_back.TabIndex = 40;
-            btn_back.Text = "Back";
-            btn_back.UseVisualStyleBackColor = true;
-            btn_back.Click += btn_back_Click;
-            // 
-            // btn_logout
-            // 
-            btn_logout.BackColor = Color.FromArgb(231, 76, 60);
-            btn_logout.FlatAppearance.BorderSize = 0;
-            btn_logout.FlatStyle = FlatStyle.Flat;
-            btn_logout.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            btn_logout.ForeColor = Color.White;
-            btn_logout.Location = new Point(807, 12);
-            btn_logout.Name = "btn_logout";
-            btn_logout.Size = new Size(94, 40);
-            btn_logout.TabIndex = 39;
-            btn_logout.Text = "Logout";
-            btn_logout.UseVisualStyleBackColor = false;
-            btn_logout.Click += btn_logout_Click;
             // 
             // btn_update
             // 
-            btn_update.BackColor = Color.LightSkyBlue;
+            btn_update.BackColor = Color.FromArgb(123, 143, 164);
             btn_update.Font = new Font("Segoe UI", 10F);
             btn_update.ForeColor = Color.White;
-            btn_update.Location = new Point(601, 220);
+            btn_update.Location = new Point(460, 215);
+            btn_update.Margin = new Padding(3, 2, 3, 2);
             btn_update.Name = "btn_update";
-            btn_update.Size = new Size(100, 35);
+            btn_update.Size = new Size(119, 55);
             btn_update.TabIndex = 38;
             btn_update.Text = "Update";
             btn_update.UseVisualStyleBackColor = false;
@@ -84,12 +65,13 @@
             // 
             // btn_add
             // 
-            btn_add.BackColor = Color.LightGreen;
+            btn_add.BackColor = Color.FromArgb(123, 143, 164);
             btn_add.Font = new Font("Segoe UI", 10F);
             btn_add.ForeColor = Color.White;
-            btn_add.Location = new Point(761, 220);
+            btn_add.Location = new Point(326, 215);
+            btn_add.Margin = new Padding(3, 2, 3, 2);
             btn_add.Name = "btn_add";
-            btn_add.Size = new Size(100, 35);
+            btn_add.Size = new Size(119, 55);
             btn_add.TabIndex = 37;
             btn_add.Text = "Add";
             btn_add.UseVisualStyleBackColor = false;
@@ -97,12 +79,13 @@
             // 
             // btn_delete
             // 
-            btn_delete.BackColor = Color.LightCoral;
+            btn_delete.BackColor = Color.FromArgb(229, 27, 27);
             btn_delete.Font = new Font("Segoe UI", 10F);
             btn_delete.ForeColor = Color.White;
-            btn_delete.Location = new Point(431, 220);
+            btn_delete.Location = new Point(596, 215);
+            btn_delete.Margin = new Padding(3, 2, 3, 2);
             btn_delete.Name = "btn_delete";
-            btn_delete.Size = new Size(100, 35);
+            btn_delete.Size = new Size(119, 55);
             btn_delete.TabIndex = 36;
             btn_delete.Text = "Delete";
             btn_delete.UseVisualStyleBackColor = false;
@@ -112,9 +95,9 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10F);
-            label6.Location = new Point(54, 172);
+            label6.Location = new Point(13, 158);
             label6.Name = "label6";
-            label6.Size = new Size(79, 23);
+            label6.Size = new Size(65, 19);
             label6.TabIndex = 35;
             label6.Text = "Category";
             // 
@@ -122,9 +105,9 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10F);
-            label5.Location = new Point(75, 119);
+            label5.Location = new Point(13, 123);
             label5.Name = "label5";
-            label5.Size = new Size(47, 23);
+            label5.Size = new Size(38, 19);
             label5.TabIndex = 34;
             label5.Text = "Price";
             // 
@@ -132,9 +115,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10F);
-            label1.Location = new Point(54, 60);
+            label1.Location = new Point(10, 80);
             label1.Name = "label1";
-            label1.Size = new Size(121, 23);
+            label1.Size = new Size(97, 19);
             label1.TabIndex = 30;
             label1.Text = "Product Name";
             // 
@@ -142,25 +125,28 @@
             // 
             cb_category.Font = new Font("Segoe UI", 10F);
             cb_category.FormattingEnabled = true;
-            cb_category.Location = new Point(181, 172);
+            cb_category.Location = new Point(124, 158);
+            cb_category.Margin = new Padding(3, 2, 3, 2);
             cb_category.Name = "cb_category";
-            cb_category.Size = new Size(200, 31);
+            cb_category.Size = new Size(176, 25);
             cb_category.TabIndex = 29;
             // 
             // nud_price
             // 
             nud_price.Font = new Font("Segoe UI", 10F);
-            nud_price.Location = new Point(181, 117);
+            nud_price.Location = new Point(124, 117);
+            nud_price.Margin = new Padding(3, 2, 3, 2);
             nud_price.Name = "nud_price";
-            nud_price.Size = new Size(200, 30);
+            nud_price.Size = new Size(175, 25);
             nud_price.TabIndex = 28;
             // 
             // txt_productName
             // 
             txt_productName.Font = new Font("Segoe UI", 10F);
-            txt_productName.Location = new Point(181, 60);
+            txt_productName.Location = new Point(124, 74);
+            txt_productName.Margin = new Padding(3, 2, 3, 2);
             txt_productName.Name = "txt_productName";
-            txt_productName.Size = new Size(200, 30);
+            txt_productName.Size = new Size(176, 25);
             txt_productName.TabIndex = 24;
             // 
             // dvg_products
@@ -168,20 +154,59 @@
             dvg_products.BackgroundColor = Color.White;
             dvg_products.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dvg_products.GridColor = Color.LightGray;
-            dvg_products.Location = new Point(12, 310);
+            dvg_products.Location = new Point(326, 62);
+            dvg_products.Margin = new Padding(3, 2, 3, 2);
             dvg_products.Name = "dvg_products";
             dvg_products.RowHeadersWidth = 51;
-            dvg_products.Size = new Size(889, 200);
+            dvg_products.Size = new Size(389, 145);
             dvg_products.TabIndex = 23;
             dvg_products.RowHeaderMouseDoubleClick += dvg_products_RowHeaderMouseDoubleClick;
             // 
+            // lb_close
+            // 
+            lb_close.Image = Properties.Resources.Close;
+            lb_close.Location = new Point(681, 11);
+            lb_close.Margin = new Padding(3, 2, 3, 2);
+            lb_close.Name = "lb_close";
+            lb_close.Size = new Size(34, 31);
+            lb_close.SizeMode = PictureBoxSizeMode.Zoom;
+            lb_close.TabIndex = 93;
+            lb_close.TabStop = false;
+            lb_close.Click += lb_close_Click;
+            // 
+            // pc_LogOut
+            // 
+            pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
+            pc_LogOut.Location = new Point(638, 285);
+            pc_LogOut.Margin = new Padding(3, 2, 3, 2);
+            pc_LogOut.Name = "pc_LogOut";
+            pc_LogOut.Size = new Size(68, 46);
+            pc_LogOut.SizeMode = PictureBoxSizeMode.Zoom;
+            pc_LogOut.TabIndex = 92;
+            pc_LogOut.TabStop = false;
+            pc_LogOut.Click += pc_LogOut_Click;
+            // 
+            // ic_back
+            // 
+            ic_back.Image = Properties.Resources.iconBack;
+            ic_back.Location = new Point(7, 3);
+            ic_back.Name = "ic_back";
+            ic_back.Size = new Size(44, 50);
+            ic_back.SizeMode = PictureBoxSizeMode.Zoom;
+            ic_back.TabIndex = 91;
+            ic_back.TabStop = false;
+            ic_back.Click += ic_back_Click;
+            // 
             // ProductManagementForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(913, 532);
-            Controls.Add(btn_back);
-            Controls.Add(btn_logout);
+            BackColor = Color.FromArgb(247, 236, 230);
+            ClientSize = new Size(720, 344);
+            ControlBox = false;
+            Controls.Add(lb_close);
+            Controls.Add(pc_LogOut);
+            Controls.Add(ic_back);
             Controls.Add(btn_update);
             Controls.Add(btn_add);
             Controls.Add(btn_delete);
@@ -192,18 +217,22 @@
             Controls.Add(nud_price);
             Controls.Add(txt_productName);
             Controls.Add(dvg_products);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ProductManagementForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ProductManagementForm";
             Load += ProductManagementForm_Load;
             ((System.ComponentModel.ISupportInitialize)nud_price).EndInit();
             ((System.ComponentModel.ISupportInitialize)dvg_products).EndInit();
+            ((System.ComponentModel.ISupportInitialize)lb_close).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pc_LogOut).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ic_back).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Button btn_back;
-        private Button btn_logout;
         private Button btn_update;
         private Button btn_add;
         private Button btn_delete;
@@ -214,5 +243,8 @@
         private NumericUpDown nud_price;
         private TextBox txt_productName;
         private DataGridView dvg_products;
+        private PictureBox lb_close;
+        private PictureBox pc_LogOut;
+        private PictureBox ic_back;
     }
 }

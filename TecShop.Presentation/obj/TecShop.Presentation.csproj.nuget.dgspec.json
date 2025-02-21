@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\TecShop.Presentation.csproj": {}
+    "D:\\Mohamoud\\TecShop.Presentation\\TecShop.Presentation.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj": {
+    "D:\\Mohamoud\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj",
+        "projectUniqueName": "D:\\Mohamoud\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj",
         "projectName": "TechShop.BusinessLogic",
-        "projectPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\obj\\",
+        "projectPath": "D:\\Mohamoud\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\SOFT\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohamoud\\TechShop.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.DataAccess\\TechShop.DataAccess.csproj": {
-                "projectPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.DataAccess\\TechShop.DataAccess.csproj"
+              "D:\\Mohamoud\\TechShop.DataAccess\\TechShop.DataAccess.csproj": {
+                "projectPath": "D:\\Mohamoud\\TechShop.DataAccess\\TechShop.DataAccess.csproj"
               }
             }
           }
@@ -75,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.DataAccess\\TechShop.DataAccess.csproj": {
+    "D:\\Mohamoud\\TechShop.DataAccess\\TechShop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.DataAccess\\TechShop.DataAccess.csproj",
+        "projectUniqueName": "D:\\Mohamoud\\TechShop.DataAccess\\TechShop.DataAccess.csproj",
         "projectName": "TechShop.DataAccess",
-        "projectPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.DataAccess\\TechShop.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.DataAccess\\obj\\",
+        "projectPath": "D:\\Mohamoud\\TechShop.DataAccess\\TechShop.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\SOFT\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohamoud\\TechShop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -146,24 +146,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\TecShop.Presentation.csproj": {
+    "D:\\Mohamoud\\TecShop.Presentation\\TecShop.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\TecShop.Presentation.csproj",
+        "projectUniqueName": "D:\\Mohamoud\\TecShop.Presentation\\TecShop.Presentation.csproj",
         "projectName": "TecShop.Presentation",
-        "projectPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\TecShop.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\obj\\",
+        "projectPath": "D:\\Mohamoud\\TecShop.Presentation\\TecShop.Presentation.csproj",
+        "packagesPath": "C:\\Users\\SOFT\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohamoud\\TecShop.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,8 +178,8 @@
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj": {
-                "projectPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj"
+              "D:\\Mohamoud\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj": {
+                "projectPath": "D:\\Mohamoud\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj"
               }
             }
           }
@@ -224,7 +224,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

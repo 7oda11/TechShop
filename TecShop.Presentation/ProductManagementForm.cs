@@ -138,7 +138,7 @@ namespace TecShop.Presentation
             {
                 if (dvg_products.SelectedRows.Count > 0)
                 {
-                    
+
                     string productName = txt_productName.Text;
                     decimal price = nud_price.Value;
                     int category = (int)cb_category.SelectedValue;
@@ -168,7 +168,7 @@ namespace TecShop.Presentation
         {
             if (dvg_products.SelectedRows.Count > 0) // Ensure a row is selected
             {
-                
+
 
                 DialogResult confirmResult = MessageBox.Show("Are you sure you want to delete this product?",
                     "Confirm Deletion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -181,7 +181,8 @@ namespace TecShop.Presentation
                     {
                         MessageBox.Show("Product deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        loadData();                    }
+                        loadData();
+                    }
                     else
                     {
                         MessageBox.Show("Failed to delete product. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -194,5 +195,23 @@ namespace TecShop.Presentation
             }
         }
 
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
+        }
+
+        private void lb_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void ic_back_Click(object sender, EventArgs e)
+        {
+            AdminDashBoard adminDashBoard = new AdminDashBoard(User);
+            adminDashBoard.Show();
+            this.Close();
+        }
     }
 }

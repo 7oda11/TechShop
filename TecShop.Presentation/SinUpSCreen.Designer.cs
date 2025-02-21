@@ -354,24 +354,27 @@ namespace TecShop.Presentation
             lb_checkUserName = new Label();
             lb_checkPassword = new Label();
             lb_checkAge = new Label();
-            lb_closeSignUp = new Label();
             Btn_Clear = new Button();
             lb_LoginHere = new Label();
             lb_messagehaveAccount = new Label();
             lb_password = new Label();
             checkBox_ShowPass = new CheckBox();
             tb_Password = new TextBox();
+            pictureBox1 = new PictureBox();
+            lb_close = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)numberic_Age).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)lb_close).BeginInit();
             SuspendLayout();
             // 
             // lb_welcomeLogin
             // 
             lb_welcomeLogin.AutoSize = true;
             lb_welcomeLogin.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
-            lb_welcomeLogin.ForeColor = Color.FromArgb(52, 152, 219);
-            lb_welcomeLogin.Location = new Point(297, 28);
+            lb_welcomeLogin.ForeColor = Color.FromArgb(32, 88, 138);
+            lb_welcomeLogin.Location = new Point(460, 18);
             lb_welcomeLogin.Name = "lb_welcomeLogin";
-            lb_welcomeLogin.Size = new Size(168, 57);
+            lb_welcomeLogin.Size = new Size(137, 46);
             lb_welcomeLogin.TabIndex = 18;
             lb_welcomeLogin.Text = "SingUp";
             // 
@@ -380,20 +383,19 @@ namespace TecShop.Presentation
             tb_Email.BackColor = Color.FromArgb(236, 240, 241);
             tb_Email.Font = new Font("Segoe UI", 15F);
             tb_Email.ForeColor = Color.FromArgb(44, 62, 80);
-            tb_Email.Location = new Point(285, 234);
-            tb_Email.Margin = new Padding(3, 4, 3, 4);
+            tb_Email.Location = new Point(380, 204);
             tb_Email.Name = "tb_Email";
-            tb_Email.Size = new Size(335, 41);
+            tb_Email.Size = new Size(267, 34);
             tb_Email.TabIndex = 26;
             // 
             // lb_email
             // 
             lb_email.AutoSize = true;
             lb_email.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            lb_email.ForeColor = Color.FromArgb(44, 62, 80);
-            lb_email.Location = new Point(162, 252);
+            lb_email.ForeColor = Color.FromArgb(146, 160, 144);
+            lb_email.Location = new Point(380, 182);
             lb_email.Name = "lb_email";
-            lb_email.Size = new Size(67, 25);
+            lb_email.Size = new Size(53, 20);
             lb_email.TabIndex = 25;
             lb_email.Text = "E-mail";
             // 
@@ -402,20 +404,19 @@ namespace TecShop.Presentation
             tb_UserName.BackColor = Color.FromArgb(236, 240, 241);
             tb_UserName.Font = new Font("Segoe UI", 15F);
             tb_UserName.ForeColor = Color.FromArgb(44, 62, 80);
-            tb_UserName.Location = new Point(285, 122);
-            tb_UserName.Margin = new Padding(3, 4, 3, 4);
+            tb_UserName.Location = new Point(380, 128);
             tb_UserName.Name = "tb_UserName";
-            tb_UserName.Size = new Size(335, 41);
+            tb_UserName.Size = new Size(267, 34);
             tb_UserName.TabIndex = 24;
             // 
             // lb_UserName
             // 
             lb_UserName.AutoSize = true;
             lb_UserName.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            lb_UserName.ForeColor = Color.FromArgb(44, 62, 80);
-            lb_UserName.Location = new Point(163, 140);
+            lb_UserName.ForeColor = Color.FromArgb(146, 160, 144);
+            lb_UserName.Location = new Point(380, 95);
             lb_UserName.Name = "lb_UserName";
-            lb_UserName.Size = new Size(104, 25);
+            lb_UserName.Size = new Size(83, 20);
             lb_UserName.TabIndex = 23;
             lb_UserName.Text = "UserName";
             // 
@@ -424,20 +425,19 @@ namespace TecShop.Presentation
             tb_Address.BackColor = Color.FromArgb(236, 240, 241);
             tb_Address.Font = new Font("Segoe UI", 15F);
             tb_Address.ForeColor = Color.FromArgb(44, 62, 80);
-            tb_Address.Location = new Point(284, 560);
-            tb_Address.Margin = new Padding(3, 4, 3, 4);
+            tb_Address.Location = new Point(380, 278);
             tb_Address.Name = "tb_Address";
-            tb_Address.Size = new Size(337, 41);
+            tb_Address.Size = new Size(267, 34);
             tb_Address.TabIndex = 33;
             // 
             // lb_Address
             // 
             lb_Address.AutoSize = true;
             lb_Address.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            lb_Address.ForeColor = Color.FromArgb(44, 62, 80);
-            lb_Address.Location = new Point(162, 560);
+            lb_Address.ForeColor = Color.FromArgb(146, 160, 144);
+            lb_Address.Location = new Point(380, 249);
             lb_Address.Name = "lb_Address";
-            lb_Address.Size = new Size(83, 25);
+            lb_Address.Size = new Size(66, 20);
             lb_Address.TabIndex = 31;
             lb_Address.Text = "Address";
             // 
@@ -445,10 +445,10 @@ namespace TecShop.Presentation
             // 
             lb_Age.AutoSize = true;
             lb_Age.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            lb_Age.ForeColor = Color.FromArgb(44, 62, 80);
-            lb_Age.Location = new Point(162, 447);
+            lb_Age.ForeColor = Color.FromArgb(146, 160, 144);
+            lb_Age.Location = new Point(693, 98);
             lb_Age.Name = "lb_Age";
-            lb_Age.Size = new Size(47, 25);
+            lb_Age.Size = new Size(37, 20);
             lb_Age.TabIndex = 29;
             lb_Age.Text = "Age";
             // 
@@ -457,21 +457,20 @@ namespace TecShop.Presentation
             numberic_Age.BackColor = Color.FromArgb(236, 240, 241);
             numberic_Age.Font = new Font("Segoe UI", 15F);
             numberic_Age.ForeColor = Color.FromArgb(44, 62, 80);
-            numberic_Age.Location = new Point(284, 450);
-            numberic_Age.Margin = new Padding(3, 4, 3, 4);
+            numberic_Age.Location = new Point(693, 128);
             numberic_Age.Name = "numberic_Age";
-            numberic_Age.Size = new Size(337, 41);
+            numberic_Age.Size = new Size(275, 34);
             numberic_Age.TabIndex = 32;
+            numberic_Age.ValueChanged += numberic_Age_ValueChanged;
             // 
             // btn_SignUp
             // 
-            btn_SignUp.BackColor = Color.FromArgb(52, 152, 219);
+            btn_SignUp.BackColor = Color.Green;
             btn_SignUp.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             btn_SignUp.ForeColor = Color.White;
-            btn_SignUp.Location = new Point(284, 708);
-            btn_SignUp.Margin = new Padding(3, 4, 3, 4);
+            btn_SignUp.Location = new Point(550, 382);
             btn_SignUp.Name = "btn_SignUp";
-            btn_SignUp.Size = new Size(159, 84);
+            btn_SignUp.Size = new Size(139, 63);
             btn_SignUp.TabIndex = 34;
             btn_SignUp.Text = "SignUp";
             btn_SignUp.UseVisualStyleBackColor = false;
@@ -482,9 +481,9 @@ namespace TecShop.Presentation
             lb_checkEmail.AutoSize = true;
             lb_checkEmail.Font = new Font("Segoe UI", 10F);
             lb_checkEmail.ForeColor = Color.FromArgb(231, 76, 60);
-            lb_checkEmail.Location = new Point(510, 277);
+            lb_checkEmail.Location = new Point(670, 142);
             lb_checkEmail.Name = "lb_checkEmail";
-            lb_checkEmail.Size = new Size(0, 23);
+            lb_checkEmail.Size = new Size(0, 19);
             lb_checkEmail.TabIndex = 40;
             // 
             // lb_checkUserName
@@ -492,9 +491,9 @@ namespace TecShop.Presentation
             lb_checkUserName.AutoSize = true;
             lb_checkUserName.Font = new Font("Segoe UI", 10F);
             lb_checkUserName.ForeColor = Color.FromArgb(231, 76, 60);
-            lb_checkUserName.Location = new Point(510, 167);
+            lb_checkUserName.Location = new Point(798, 141);
             lb_checkUserName.Name = "lb_checkUserName";
-            lb_checkUserName.Size = new Size(0, 23);
+            lb_checkUserName.Size = new Size(0, 19);
             lb_checkUserName.TabIndex = 41;
             // 
             // lb_checkPassword
@@ -502,9 +501,9 @@ namespace TecShop.Presentation
             lb_checkPassword.AutoSize = true;
             lb_checkPassword.Font = new Font("Segoe UI", 10F);
             lb_checkPassword.ForeColor = Color.FromArgb(231, 76, 60);
-            lb_checkPassword.Location = new Point(510, 381);
+            lb_checkPassword.Location = new Point(891, 236);
             lb_checkPassword.Name = "lb_checkPassword";
-            lb_checkPassword.Size = new Size(0, 23);
+            lb_checkPassword.Size = new Size(0, 19);
             lb_checkPassword.TabIndex = 42;
             // 
             // lb_checkAge
@@ -512,33 +511,19 @@ namespace TecShop.Presentation
             lb_checkAge.AutoSize = true;
             lb_checkAge.Font = new Font("Segoe UI", 10F);
             lb_checkAge.ForeColor = Color.FromArgb(231, 76, 60);
-            lb_checkAge.Location = new Point(510, 496);
+            lb_checkAge.Location = new Point(578, 230);
             lb_checkAge.Name = "lb_checkAge";
-            lb_checkAge.Size = new Size(0, 23);
+            lb_checkAge.Size = new Size(0, 19);
             lb_checkAge.TabIndex = 43;
-            // 
-            // lb_closeSignUp
-            // 
-            lb_closeSignUp.AutoSize = true;
-            lb_closeSignUp.BackColor = Color.White;
-            lb_closeSignUp.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lb_closeSignUp.ForeColor = Color.FromArgb(44, 62, 80);
-            lb_closeSignUp.Location = new Point(770, 883);
-            lb_closeSignUp.Name = "lb_closeSignUp";
-            lb_closeSignUp.Size = new Size(106, 28);
-            lb_closeSignUp.TabIndex = 36;
-            lb_closeSignUp.Text = "Close App";
-            lb_closeSignUp.Click += lb_closeSignUp_Click;
             // 
             // Btn_Clear
             // 
-            Btn_Clear.BackColor = Color.FromArgb(231, 76, 60);
+            Btn_Clear.BackColor = Color.FromArgb(229, 27, 27);
             Btn_Clear.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             Btn_Clear.ForeColor = Color.White;
-            Btn_Clear.Location = new Point(461, 708);
-            Btn_Clear.Margin = new Padding(3, 4, 3, 4);
+            Btn_Clear.Location = new Point(704, 382);
             Btn_Clear.Name = "Btn_Clear";
-            Btn_Clear.Size = new Size(159, 84);
+            Btn_Clear.Size = new Size(139, 63);
             Btn_Clear.TabIndex = 35;
             Btn_Clear.Text = "Clear";
             Btn_Clear.UseVisualStyleBackColor = false;
@@ -548,10 +533,10 @@ namespace TecShop.Presentation
             // 
             lb_LoginHere.AutoSize = true;
             lb_LoginHere.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lb_LoginHere.ForeColor = Color.FromArgb(52, 152, 219);
-            lb_LoginHere.Location = new Point(490, 632);
+            lb_LoginHere.ForeColor = Color.FromArgb(32, 88, 138);
+            lb_LoginHere.Location = new Point(701, 330);
             lb_LoginHere.Name = "lb_LoginHere";
-            lb_LoginHere.Size = new Size(121, 28);
+            lb_LoginHere.Size = new Size(97, 21);
             lb_LoginHere.TabIndex = 38;
             lb_LoginHere.Text = " Login Here";
             lb_LoginHere.Click += lb_LoginHere_Click;
@@ -560,10 +545,10 @@ namespace TecShop.Presentation
             // 
             lb_messagehaveAccount.AutoSize = true;
             lb_messagehaveAccount.Font = new Font("Segoe UI", 12F);
-            lb_messagehaveAccount.ForeColor = Color.FromArgb(44, 62, 80);
-            lb_messagehaveAccount.Location = new Point(284, 632);
+            lb_messagehaveAccount.ForeColor = Color.FromArgb(146, 160, 144);
+            lb_messagehaveAccount.Location = new Point(524, 330);
             lb_messagehaveAccount.Name = "lb_messagehaveAccount";
-            lb_messagehaveAccount.Size = new Size(234, 28);
+            lb_messagehaveAccount.Size = new Size(186, 21);
             lb_messagehaveAccount.TabIndex = 37;
             lb_messagehaveAccount.Text = "Already have an account?";
             // 
@@ -571,10 +556,10 @@ namespace TecShop.Presentation
             // 
             lb_password.AutoSize = true;
             lb_password.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
-            lb_password.ForeColor = Color.FromArgb(44, 62, 80);
-            lb_password.Location = new Point(162, 343);
+            lb_password.ForeColor = Color.FromArgb(146, 160, 144);
+            lb_password.Location = new Point(693, 182);
             lb_password.Name = "lb_password";
-            lb_password.Size = new Size(97, 25);
+            lb_password.Size = new Size(76, 20);
             lb_password.TabIndex = 27;
             lb_password.Text = "Password";
             // 
@@ -582,11 +567,10 @@ namespace TecShop.Presentation
             // 
             checkBox_ShowPass.AutoSize = true;
             checkBox_ShowPass.Font = new Font("Segoe UI", 12F);
-            checkBox_ShowPass.ForeColor = Color.FromArgb(44, 62, 80);
-            checkBox_ShowPass.Location = new Point(480, 392);
-            checkBox_ShowPass.Margin = new Padding(3, 4, 3, 4);
+            checkBox_ShowPass.ForeColor = Color.FromArgb(146, 160, 144);
+            checkBox_ShowPass.Location = new Point(821, 246);
             checkBox_ShowPass.Name = "checkBox_ShowPass";
-            checkBox_ShowPass.Size = new Size(168, 32);
+            checkBox_ShowPass.Size = new Size(138, 25);
             checkBox_ShowPass.TabIndex = 39;
             checkBox_ShowPass.Text = "Show Password";
             checkBox_ShowPass.UseVisualStyleBackColor = true;
@@ -597,28 +581,50 @@ namespace TecShop.Presentation
             tb_Password.BackColor = Color.FromArgb(236, 240, 241);
             tb_Password.Font = new Font("Segoe UI", 15F);
             tb_Password.ForeColor = Color.FromArgb(44, 62, 80);
-            tb_Password.Location = new Point(284, 339);
-            tb_Password.Margin = new Padding(3, 4, 3, 4);
+            tb_Password.Location = new Point(693, 204);
             tb_Password.Name = "tb_Password";
-            tb_Password.Size = new Size(337, 41);
+            tb_Password.Size = new Size(275, 34);
             tb_Password.TabIndex = 28;
             tb_Password.UseSystemPasswordChar = true;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.ImageSignUp2;
+            pictureBox1.Location = new Point(44, 56);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(290, 333);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 44;
+            pictureBox1.TabStop = false;
+            // 
+            // lb_close
+            // 
+            lb_close.Image = Properties.Resources.Close;
+            lb_close.Location = new Point(956, 9);
+            lb_close.Margin = new Padding(3, 2, 3, 2);
+            lb_close.Name = "lb_close";
+            lb_close.Size = new Size(34, 31);
+            lb_close.SizeMode = PictureBoxSizeMode.Zoom;
+            lb_close.TabIndex = 45;
+            lb_close.TabStop = false;
+            lb_close.Click += lb_close_Click;
+            // 
             // SinUpSCreen
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
-            ClientSize = new Size(888, 920);
+            BackColor = Color.FromArgb(247, 236, 230);
+            ClientSize = new Size(1010, 482);
             ControlBox = false;
+            Controls.Add(lb_close);
+            Controls.Add(pictureBox1);
             Controls.Add(lb_checkAge);
             Controls.Add(lb_checkPassword);
             Controls.Add(lb_checkUserName);
             Controls.Add(lb_checkEmail);
             Controls.Add(checkBox_ShowPass);
-            Controls.Add(lb_LoginHere);
             Controls.Add(lb_messagehaveAccount);
-            Controls.Add(lb_closeSignUp);
             Controls.Add(Btn_Clear);
             Controls.Add(btn_SignUp);
             Controls.Add(numberic_Age);
@@ -632,11 +638,14 @@ namespace TecShop.Presentation
             Controls.Add(tb_UserName);
             Controls.Add(lb_UserName);
             Controls.Add(lb_welcomeLogin);
+            Controls.Add(lb_LoginHere);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(3, 4, 3, 4);
             Name = "SinUpSCreen";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUp";
             ((System.ComponentModel.ISupportInitialize)numberic_Age).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)lb_close).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -661,7 +670,8 @@ namespace TecShop.Presentation
         private Label lb_checkUserName;
         private Label lb_checkPassword;
         private Label lb_checkAge;
-        private Label lb_closeSignUp;
         private Button Btn_Clear;
+        private PictureBox pictureBox1;
+        private PictureBox lb_close;
     }
 }

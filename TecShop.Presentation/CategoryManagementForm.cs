@@ -137,7 +137,7 @@ namespace TecShop.Presentation
 
                 if (result == DialogResult.Yes)
                 {
-                    
+
 
                     int rowsAffected = categoryService.deleteCategory(id);
 
@@ -158,5 +158,18 @@ namespace TecShop.Presentation
             }
         }
 
+        private void ic_back_Click(object sender, EventArgs e)
+        {
+            AdminDashBoard adminDashBoard = new AdminDashBoard(User);
+            adminDashBoard.Show();
+            this.Close();
+        }
+
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
+        }
     }
 }

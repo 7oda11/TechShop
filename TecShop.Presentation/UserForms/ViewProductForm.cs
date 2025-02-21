@@ -28,9 +28,7 @@ namespace TecShop.Presentation.UserForms
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-            UserDashBoard userDashBoard = new UserDashBoard(User);
-            userDashBoard.Show();
-            this.Close();
+
         }
 
         private void btn_logout_Click(object sender, EventArgs e)
@@ -79,6 +77,20 @@ namespace TecShop.Presentation.UserForms
             {
                 MessageBox.Show("Failed to add product to favorites.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void ic_back_Click(object sender, EventArgs e)
+        {
+            UserDashBoard userDashBoard = new UserDashBoard(User);
+            userDashBoard.Show();
+            this.Close();
+        }
+
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
         }
     }
 }

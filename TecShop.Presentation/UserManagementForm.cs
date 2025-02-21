@@ -150,8 +150,8 @@ namespace TecShop.Presentation
             txt_email.Text = string.Empty;
             txt_password.Text = string.Empty;
             txt_address.Text = string.Empty;
-            nud_age.Value = 0; // Reset age to 0
-            cb_role.SelectedIndex = -1; // Unselect role
+            nud_age.Value = 0; 
+            cb_role.SelectedIndex = -1; 
         }
         int id;
         private void loadDataOnGridView()
@@ -210,13 +210,13 @@ namespace TecShop.Presentation
                 // Get selected user ID from the DataGridView (assuming there's an ID column)
                 if (dvg_users.SelectedRows.Count > 0)
                 {
-                     userId = Convert.ToInt32(dvg_users.SelectedRows[0].Cells["UserID"].Value);
+                    userId = Convert.ToInt32(dvg_users.SelectedRows[0].Cells["UserID"].Value);
 
                     // Call the update method from the userService
                     int rowsAffected = userService.updateUser(
                         userId,
                         txt_userName.Text,
-                        txt_password.Text, 
+                        txt_password.Text,
                         txt_email.Text,
                         (int)nud_age.Value,
                         txt_address.Text,
@@ -248,7 +248,7 @@ namespace TecShop.Presentation
             if (dvg_users.SelectedRows.Count > 0)
             {
                 // Get the UserID of the selected user
-                 userId = Convert.ToInt32(dvg_users.SelectedRows[0].Cells["UserID"].Value);
+                userId = Convert.ToInt32(dvg_users.SelectedRows[0].Cells["UserID"].Value);
 
                 // Ask for confirmation before deleting
                 var confirmation = MessageBox.Show(
@@ -282,5 +282,25 @@ namespace TecShop.Presentation
             }
         }
 
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
+        }
+
+        private void lb_close_Click(object sender, EventArgs e)
+        {
+            AdminDashBoard adminDashBoard = new AdminDashBoard(User);
+            adminDashBoard.Show();
+            this.Close();
+        }
+
+        private void ic_back_Click(object sender, EventArgs e)
+        {
+            AdminDashBoard adminDashBoard = new AdminDashBoard(User);
+            adminDashBoard.Show();
+            this.Close();
+        }
     }
 }

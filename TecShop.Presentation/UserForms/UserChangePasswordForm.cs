@@ -112,6 +112,20 @@ namespace TecShop.Presentation.UserForms
             txt_newPassword.Clear();
             txt_confirmPassword.Clear();
         }
+
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
+        }
+
+        private void ic_back_Click(object sender, EventArgs e)
+        {
+            UserProfileManagementForm userProfileManagementForm = new UserProfileManagementForm(User);
+            userProfileManagementForm.Show();
+            this.Close();
+        }
     }
 
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TechShop.BusinessLogic;
 using TecShop.Presentation.UserForms;
 
 namespace TecShop.Presentation
@@ -43,9 +44,34 @@ namespace TecShop.Presentation
 
         private void btn_manageUserProfile_Click(object sender, EventArgs e)
         {
-            UserProfileManagementForm userProfileManagementForm = new UserProfileManagementForm(User);  
+            UserProfileManagementForm userProfileManagementForm = new UserProfileManagementForm(User);
             userProfileManagementForm.Show();
             this.Close();
+        }
+
+
+        private void UserDashBoard_Load(object sender, EventArgs e)
+        {
+            lb_welcomeLogin.Text = "Welcome " + User.Rows[0]["Username"].ToString();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            LoginScreen login = new LoginScreen();
+            login.Show();
+            this.Close();
+        }
+
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen login = new LoginScreen();
+            login.Show();
+            this.Close();
+        }
+
+        private void lb_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
