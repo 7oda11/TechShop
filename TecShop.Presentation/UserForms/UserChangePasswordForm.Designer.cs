@@ -125,7 +125,7 @@
             cb_oldPassword.AutoSize = true;
             cb_oldPassword.Font = new Font("Segoe UI", 12F);
             cb_oldPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            cb_oldPassword.Location = new Point(701, 190);
+            cb_oldPassword.Location = new Point(734, 190);
             cb_oldPassword.Margin = new Padding(3, 4, 3, 4);
             cb_oldPassword.Name = "cb_oldPassword";
             cb_oldPassword.Size = new Size(207, 32);
