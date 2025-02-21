@@ -45,7 +45,7 @@
             lb_welcomeLogin.AutoSize = true;
             lb_welcomeLogin.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
             lb_welcomeLogin.ForeColor = Color.FromArgb(32, 88, 138);
-            lb_welcomeLogin.Location = new Point(230, 14);
+            lb_welcomeLogin.Location = new Point(115, 20);
             lb_welcomeLogin.Name = "lb_welcomeLogin";
             lb_welcomeLogin.Size = new Size(259, 46);
             lb_welcomeLogin.TabIndex = 14;
@@ -58,7 +58,7 @@
             btn_manageFavorites.FlatStyle = FlatStyle.Flat;
             btn_manageFavorites.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_manageFavorites.ForeColor = Color.White;
-            btn_manageFavorites.Location = new Point(378, 86);
+            btn_manageFavorites.Location = new Point(251, 97);
             btn_manageFavorites.Margin = new Padding(3, 2, 3, 2);
             btn_manageFavorites.Name = "btn_manageFavorites";
             btn_manageFavorites.Size = new Size(200, 74);
@@ -74,7 +74,7 @@
             btn_manageUserProfile.FlatStyle = FlatStyle.Flat;
             btn_manageUserProfile.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_manageUserProfile.ForeColor = Color.White;
-            btn_manageUserProfile.Location = new Point(259, 175);
+            btn_manageUserProfile.Location = new Point(132, 186);
             btn_manageUserProfile.Margin = new Padding(3, 2, 3, 2);
             btn_manageUserProfile.Name = "btn_manageUserProfile";
             btn_manageUserProfile.Size = new Size(194, 74);
@@ -90,7 +90,7 @@
             btn_viewProduucts.FlatStyle = FlatStyle.Flat;
             btn_viewProduucts.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_viewProduucts.ForeColor = Color.White;
-            btn_viewProduucts.Location = new Point(150, 86);
+            btn_viewProduucts.Location = new Point(23, 97);
             btn_viewProduucts.Margin = new Padding(3, 2, 3, 2);
             btn_viewProduucts.Name = "btn_viewProduucts";
             btn_viewProduucts.Size = new Size(214, 74);
@@ -112,7 +112,7 @@
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(579, 227);
+            pc_LogOut.Location = new Point(415, 230);
             pc_LogOut.Margin = new Padding(3, 2, 3, 2);
             pc_LogOut.Name = "pc_LogOut";
             pc_LogOut.Size = new Size(109, 46);
@@ -124,7 +124,7 @@
             // lb_close
             // 
             lb_close.Image = Properties.Resources.Close;
-            lb_close.Location = new Point(654, 11);
+            lb_close.Location = new Point(490, 14);
             lb_close.Margin = new Padding(3, 2, 3, 2);
             lb_close.Name = "lb_close";
             lb_close.Size = new Size(34, 31);
@@ -138,7 +138,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 236, 230);
-            ClientSize = new Size(694, 298);
+            ClientSize = new Size(552, 298);
             ControlBox = false;
             Controls.Add(lb_close);
             Controls.Add(pc_LogOut);
