@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminChangePasswordForm));
             lb_welcomeLogin = new Label();
             cb_newPassword = new CheckBox();
             txt_oldPassword = new TextBox();
@@ -38,19 +39,23 @@
             cb_confirmPassword = new CheckBox();
             txt_confirmPassword = new TextBox();
             label2 = new Label();
-            btn_logout = new Button();
-            btn_back = new Button();
             btn_updateProfile = new Button();
+            pictureBox1 = new PictureBox();
+            pc_LogOut = new PictureBox();
+            ic_back = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pc_LogOut).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ic_back).BeginInit();
             SuspendLayout();
             // 
             // lb_welcomeLogin
             // 
             lb_welcomeLogin.AutoSize = true;
             lb_welcomeLogin.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
-            lb_welcomeLogin.ForeColor = Color.FromArgb(52, 152, 219);
-            lb_welcomeLogin.Location = new Point(269, 9);
+            lb_welcomeLogin.ForeColor = Color.FromArgb(26, 103, 177);
+            lb_welcomeLogin.Location = new Point(243, 11);
             lb_welcomeLogin.Name = "lb_welcomeLogin";
-            lb_welcomeLogin.Size = new Size(371, 57);
+            lb_welcomeLogin.Size = new Size(299, 46);
             lb_welcomeLogin.TabIndex = 14;
             lb_welcomeLogin.Text = "Change Password";
             // 
@@ -58,11 +63,10 @@
             // 
             cb_newPassword.AutoSize = true;
             cb_newPassword.Font = new Font("Segoe UI", 12F);
-            cb_newPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            cb_newPassword.Location = new Point(708, 299);
-            cb_newPassword.Margin = new Padding(3, 4, 3, 4);
+            cb_newPassword.ForeColor = Color.FromArgb(146, 160, 144);
+            cb_newPassword.Location = new Point(500, 223);
             cb_newPassword.Name = "cb_newPassword";
-            cb_newPassword.Size = new Size(212, 32);
+            cb_newPassword.Size = new Size(174, 25);
             cb_newPassword.TabIndex = 24;
             cb_newPassword.Text = "Show New Password";
             cb_newPassword.UseVisualStyleBackColor = true;
@@ -74,10 +78,9 @@
             txt_oldPassword.BorderStyle = BorderStyle.FixedSingle;
             txt_oldPassword.Font = new Font("Segoe UI", 14F);
             txt_oldPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            txt_oldPassword.Location = new Point(608, 148);
-            txt_oldPassword.Margin = new Padding(3, 4, 3, 4);
+            txt_oldPassword.Location = new Point(412, 113);
             txt_oldPassword.Name = "txt_oldPassword";
-            txt_oldPassword.Size = new Size(327, 39);
+            txt_oldPassword.Size = new Size(286, 32);
             txt_oldPassword.TabIndex = 23;
             txt_oldPassword.UseSystemPasswordChar = true;
             // 
@@ -85,10 +88,10 @@
             // 
             lb_password.AutoSize = true;
             lb_password.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lb_password.ForeColor = Color.FromArgb(64, 64, 64);
-            lb_password.Location = new Point(459, 263);
+            lb_password.ForeColor = Color.FromArgb(146, 160, 144);
+            lb_password.Location = new Point(253, 196);
             lb_password.Name = "lb_password";
-            lb_password.Size = new Size(150, 28);
+            lb_password.Size = new Size(121, 21);
             lb_password.TabIndex = 22;
             lb_password.Text = "New Password";
             // 
@@ -96,11 +99,10 @@
             // 
             cb_oldPassword.AutoSize = true;
             cb_oldPassword.Font = new Font("Segoe UI", 12F);
-            cb_oldPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            cb_oldPassword.Location = new Point(708, 195);
-            cb_oldPassword.Margin = new Padding(3, 4, 3, 4);
+            cb_oldPassword.ForeColor = Color.FromArgb(146, 160, 144);
+            cb_oldPassword.Location = new Point(500, 148);
             cb_oldPassword.Name = "cb_oldPassword";
-            cb_oldPassword.Size = new Size(202, 32);
+            cb_oldPassword.Size = new Size(164, 25);
             cb_oldPassword.TabIndex = 27;
             cb_oldPassword.Text = "Show old Password";
             cb_oldPassword.UseVisualStyleBackColor = true;
@@ -112,10 +114,9 @@
             txt_newPassword.BorderStyle = BorderStyle.FixedSingle;
             txt_newPassword.Font = new Font("Segoe UI", 14F);
             txt_newPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            txt_newPassword.Location = new Point(608, 252);
-            txt_newPassword.Margin = new Padding(3, 4, 3, 4);
+            txt_newPassword.Location = new Point(412, 185);
             txt_newPassword.Name = "txt_newPassword";
-            txt_newPassword.Size = new Size(327, 39);
+            txt_newPassword.Size = new Size(286, 32);
             txt_newPassword.TabIndex = 26;
             txt_newPassword.UseSystemPasswordChar = true;
             // 
@@ -123,10 +124,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label1.ForeColor = Color.FromArgb(64, 64, 64);
-            label1.Location = new Point(459, 152);
+            label1.ForeColor = Color.FromArgb(146, 160, 144);
+            label1.Location = new Point(253, 113);
             label1.Name = "label1";
-            label1.Size = new Size(140, 28);
+            label1.Size = new Size(113, 21);
             label1.TabIndex = 25;
             label1.Text = "Old Password";
             // 
@@ -134,11 +135,10 @@
             // 
             cb_confirmPassword.AutoSize = true;
             cb_confirmPassword.Font = new Font("Segoe UI", 12F);
-            cb_confirmPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            cb_confirmPassword.Location = new Point(708, 414);
-            cb_confirmPassword.Margin = new Padding(3, 4, 3, 4);
+            cb_confirmPassword.ForeColor = Color.FromArgb(146, 160, 144);
+            cb_confirmPassword.Location = new Point(500, 303);
             cb_confirmPassword.Name = "cb_confirmPassword";
-            cb_confirmPassword.Size = new Size(243, 32);
+            cb_confirmPassword.Size = new Size(199, 25);
             cb_confirmPassword.TabIndex = 30;
             cb_confirmPassword.Text = "Show Confirm Password";
             cb_confirmPassword.UseVisualStyleBackColor = true;
@@ -150,10 +150,9 @@
             txt_confirmPassword.BorderStyle = BorderStyle.FixedSingle;
             txt_confirmPassword.Font = new Font("Segoe UI", 14F);
             txt_confirmPassword.ForeColor = Color.FromArgb(64, 64, 64);
-            txt_confirmPassword.Location = new Point(608, 367);
-            txt_confirmPassword.Margin = new Padding(3, 4, 3, 4);
+            txt_confirmPassword.Location = new Point(412, 254);
             txt_confirmPassword.Name = "txt_confirmPassword";
-            txt_confirmPassword.Size = new Size(327, 39);
+            txt_confirmPassword.Size = new Size(286, 32);
             txt_confirmPassword.TabIndex = 29;
             txt_confirmPassword.UseSystemPasswordChar = true;
             // 
@@ -161,60 +160,70 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label2.ForeColor = Color.FromArgb(64, 64, 64);
-            label2.Location = new Point(426, 378);
+            label2.ForeColor = Color.FromArgb(146, 160, 144);
+            label2.Location = new Point(253, 265);
             label2.Name = "label2";
-            label2.Size = new Size(183, 28);
+            label2.Size = new Size(148, 21);
             label2.TabIndex = 28;
             label2.Text = "Confirm Password";
             // 
-            // btn_logout
-            // 
-            btn_logout.BackColor = Color.FromArgb(231, 76, 60);
-            btn_logout.FlatAppearance.BorderSize = 0;
-            btn_logout.FlatStyle = FlatStyle.Flat;
-            btn_logout.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            btn_logout.ForeColor = Color.White;
-            btn_logout.Location = new Point(857, 9);
-            btn_logout.Name = "btn_logout";
-            btn_logout.Size = new Size(94, 40);
-            btn_logout.TabIndex = 63;
-            btn_logout.Text = "Logout";
-            btn_logout.UseVisualStyleBackColor = false;
-            btn_logout.Click += btn_logout_Click;
-            // 
-            // btn_back
-            // 
-            btn_back.Location = new Point(12, 18);
-            btn_back.Name = "btn_back";
-            btn_back.Size = new Size(94, 29);
-            btn_back.TabIndex = 64;
-            btn_back.Text = "Back";
-            btn_back.UseVisualStyleBackColor = true;
-            btn_back.Click += btn_back_Click;
-            // 
             // btn_updateProfile
             // 
-            btn_updateProfile.BackColor = Color.FromArgb(52, 152, 219);
+            btn_updateProfile.BackColor = Color.FromArgb(26, 103, 177);
             btn_updateProfile.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             btn_updateProfile.ForeColor = Color.White;
-            btn_updateProfile.Location = new Point(308, 509);
-            btn_updateProfile.Margin = new Padding(3, 4, 3, 4);
+            btn_updateProfile.Location = new Point(359, 334);
             btn_updateProfile.Name = "btn_updateProfile";
-            btn_updateProfile.Size = new Size(365, 84);
+            btn_updateProfile.Size = new Size(148, 61);
             btn_updateProfile.TabIndex = 65;
             btn_updateProfile.Text = "Update";
             btn_updateProfile.UseVisualStyleBackColor = false;
             btn_updateProfile.Click += btn_updateProfile_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.icProfile;
+            pictureBox1.Location = new Point(12, 111);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(223, 186);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 85;
+            pictureBox1.TabStop = false;
+            // 
+            // pc_LogOut
+            // 
+            pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
+            pc_LogOut.Location = new Point(656, 15);
+            pc_LogOut.Margin = new Padding(3, 2, 3, 2);
+            pc_LogOut.Name = "pc_LogOut";
+            pc_LogOut.Size = new Size(68, 46);
+            pc_LogOut.SizeMode = PictureBoxSizeMode.Zoom;
+            pc_LogOut.TabIndex = 88;
+            pc_LogOut.TabStop = false;
+            pc_LogOut.Click += pc_LogOut_Click;
+            // 
+            // ic_back
+            // 
+            ic_back.Image = Properties.Resources.iconBack;
+            ic_back.Location = new Point(12, 11);
+            ic_back.Name = "ic_back";
+            ic_back.Size = new Size(44, 50);
+            ic_back.SizeMode = PictureBoxSizeMode.Zoom;
+            ic_back.TabIndex = 87;
+            ic_back.TabStop = false;
+            ic_back.Click += ic_back_Click;
+            // 
             // AdminChangePasswordForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(963, 606);
+            BackColor = Color.FromArgb(247, 236, 230);
+            ClientSize = new Size(735, 454);
+            ControlBox = false;
+            Controls.Add(pc_LogOut);
+            Controls.Add(ic_back);
+            Controls.Add(pictureBox1);
             Controls.Add(btn_updateProfile);
-            Controls.Add(btn_back);
-            Controls.Add(btn_logout);
             Controls.Add(cb_confirmPassword);
             Controls.Add(txt_confirmPassword);
             Controls.Add(label2);
@@ -225,8 +234,14 @@
             Controls.Add(txt_oldPassword);
             Controls.Add(lb_password);
             Controls.Add(lb_welcomeLogin);
+            ForeColor = SystemColors.ControlDarkDark;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "AdminChangePasswordForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminChangePasswordForm";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pc_LogOut).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ic_back).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -243,8 +258,9 @@
         private CheckBox cb_confirmPassword;
         private TextBox txt_confirmPassword;
         private Label label2;
-        private Button btn_logout;
-        private Button btn_back;
         private Button btn_updateProfile;
+        private PictureBox pictureBox1;
+        private PictureBox pc_LogOut;
+        private PictureBox ic_back;
     }
 }

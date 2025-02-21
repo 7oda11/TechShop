@@ -276,6 +276,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Margin = new Padding(3, 2, 3, 2);
             Name = "UserProfileManagementForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "UserProfileManagementForm";
             Load += UserProfileManagementForm_Load;
             ((System.ComponentModel.ISupportInitialize)numberic_Age).EndInit();

@@ -102,6 +102,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Margin = new Padding(3, 2, 3, 2);
             Name = "ViewProductForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ViewProductForm";
             Load += ViewProductForm_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_products).EndInit();

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Mohamoud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\userforms\\userchangepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\userforms\\userchangepasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\productmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\productmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\categorymanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\categorymanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\productmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\productmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,26 +62,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserChangePasswordForm.cs [Design]",
-              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\UserChangePasswordForm.cs",
-              "RelativeDocumentMoniker": "TecShop.Presentation\\UserForms\\UserChangePasswordForm.cs",
-              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\UserChangePasswordForm.cs [Design]*",
-              "RelativeToolTip": "TecShop.Presentation\\UserForms\\UserChangePasswordForm.cs [Design]*",
+              "DocumentIndex": 4,
+              "Title": "UserManagementForm.cs",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserManagementForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\UserManagementForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserManagementForm.cs",
+              "RelativeToolTip": "TecShop.Presentation\\UserManagementForm.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAlwKQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T14:56:55.079Z",
+              "WhenOpened": "2025-02-21T16:15:02.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserManagementForm.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserManagementForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\UserManagementForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserManagementForm.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\UserManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:14:59.708Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductManagementForm.cs",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\ProductManagementForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\ProductManagementForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\ProductManagementForm.cs",
+              "RelativeToolTip": "TecShop.Presentation\\ProductManagementForm.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAlwNMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:10:02.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductManagementForm.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\ProductManagementForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\ProductManagementForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\ProductManagementForm.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\ProductManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T16:07:17.952Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginScreen.cs [Design]",
-              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs",
-              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
-              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs [Design]",
-              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs [Design]",
+              "Title": "CategoryManagementForm.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\CategoryManagementForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\CategoryManagementForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\CategoryManagementForm.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\CategoryManagementForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T14:51:23.576Z",
+              "WhenOpened": "2025-02-21T15:57:55.113Z",
               "EditorCaption": " [Design]"
             }
           ]

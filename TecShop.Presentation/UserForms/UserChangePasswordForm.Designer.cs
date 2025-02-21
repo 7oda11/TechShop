@@ -193,7 +193,7 @@
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(655, 11);
+            pc_LogOut.Location = new Point(632, 12);
             pc_LogOut.Margin = new Padding(3, 2, 3, 2);
             pc_LogOut.Name = "pc_LogOut";
             pc_LogOut.Size = new Size(68, 46);
@@ -205,7 +205,7 @@
             // ic_back
             // 
             ic_back.Image = Properties.Resources.iconBack;
-            ic_back.Location = new Point(12, 12);
+            ic_back.Location = new Point(7, 13);
             ic_back.Name = "ic_back";
             ic_back.Size = new Size(44, 50);
             ic_back.SizeMode = PictureBoxSizeMode.Zoom;
@@ -237,6 +237,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Margin = new Padding(3, 2, 3, 2);
             Name = "UserChangePasswordForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "UserChangePasswordForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pc_LogOut).EndInit();

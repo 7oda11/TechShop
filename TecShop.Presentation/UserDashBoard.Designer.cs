@@ -58,10 +58,10 @@
             btn_manageFavorites.FlatStyle = FlatStyle.Flat;
             btn_manageFavorites.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_manageFavorites.ForeColor = Color.White;
-            btn_manageFavorites.Location = new Point(251, 97);
+            btn_manageFavorites.Location = new Point(144, 168);
             btn_manageFavorites.Margin = new Padding(3, 2, 3, 2);
             btn_manageFavorites.Name = "btn_manageFavorites";
-            btn_manageFavorites.Size = new Size(200, 74);
+            btn_manageFavorites.Size = new Size(214, 74);
             btn_manageFavorites.TabIndex = 18;
             btn_manageFavorites.Text = "Manage Favorites";
             btn_manageFavorites.UseVisualStyleBackColor = false;
@@ -74,10 +74,10 @@
             btn_manageUserProfile.FlatStyle = FlatStyle.Flat;
             btn_manageUserProfile.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_manageUserProfile.ForeColor = Color.White;
-            btn_manageUserProfile.Location = new Point(132, 186);
+            btn_manageUserProfile.Location = new Point(144, 255);
             btn_manageUserProfile.Margin = new Padding(3, 2, 3, 2);
             btn_manageUserProfile.Name = "btn_manageUserProfile";
-            btn_manageUserProfile.Size = new Size(194, 74);
+            btn_manageUserProfile.Size = new Size(214, 74);
             btn_manageUserProfile.TabIndex = 19;
             btn_manageUserProfile.Text = "Manage Profile";
             btn_manageUserProfile.UseVisualStyleBackColor = false;
@@ -90,7 +90,7 @@
             btn_viewProduucts.FlatStyle = FlatStyle.Flat;
             btn_viewProduucts.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_viewProduucts.ForeColor = Color.White;
-            btn_viewProduucts.Location = new Point(23, 97);
+            btn_viewProduucts.Location = new Point(144, 90);
             btn_viewProduucts.Margin = new Padding(3, 2, 3, 2);
             btn_viewProduucts.Name = "btn_viewProduucts";
             btn_viewProduucts.Size = new Size(214, 74);
@@ -112,7 +112,7 @@
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(415, 230);
+            pc_LogOut.Location = new Point(393, 283);
             pc_LogOut.Margin = new Padding(3, 2, 3, 2);
             pc_LogOut.Name = "pc_LogOut";
             pc_LogOut.Size = new Size(109, 46);
@@ -124,7 +124,7 @@
             // lb_close
             // 
             lb_close.Image = Properties.Resources.Close;
-            lb_close.Location = new Point(490, 14);
+            lb_close.Location = new Point(468, 11);
             lb_close.Margin = new Padding(3, 2, 3, 2);
             lb_close.Name = "lb_close";
             lb_close.Size = new Size(34, 31);
@@ -138,7 +138,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 236, 230);
-            ClientSize = new Size(552, 298);
+            ClientSize = new Size(523, 384);
             ControlBox = false;
             Controls.Add(lb_close);
             Controls.Add(pc_LogOut);
@@ -150,6 +150,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Margin = new Padding(3, 2, 3, 2);
             Name = "UserDashBoard";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "UserDashBoard";
             Load += UserDashBoard_Load;
             ((System.ComponentModel.ISupportInitialize)pc_LogOut).EndInit();

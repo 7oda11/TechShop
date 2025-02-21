@@ -411,8 +411,9 @@ namespace TecShop.Presentation
             Controls.Add(tb_UserName);
             Controls.Add(lb_Email);
             Controls.Add(lb_welcomeLogin);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "LoginScreen";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

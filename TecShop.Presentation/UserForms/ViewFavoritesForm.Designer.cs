@@ -102,6 +102,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Margin = new Padding(3, 2, 3, 2);
             Name = "ViewFavoritesForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ViewFavoritesForm";
             Load += ViewFavoritesForm_Load;
             ((System.ComponentModel.ISupportInitialize)dgv_fav).EndInit();

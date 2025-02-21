@@ -641,6 +641,7 @@ namespace TecShop.Presentation
             Controls.Add(lb_LoginHere);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Name = "SinUpSCreen";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUp";
             ((System.ComponentModel.ISupportInitialize)numberic_Age).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -93,7 +93,7 @@ namespace TecShop.Presentation
                 MessageBox.Show("New password and confirm password do not match.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            int rowsAffected = userService.UpdateUserPassword(id,userName, newPassword);
+            int rowsAffected = userService.UpdateUserPassword(id, userName, newPassword);
 
             if (rowsAffected > 0)
             {
@@ -112,5 +112,18 @@ namespace TecShop.Presentation
             txt_confirmPassword.Clear();
         }
 
+        private void ic_back_Click(object sender, EventArgs e)
+        {
+            AdminProfileManagementForm adminProfile = new AdminProfileManagementForm(User);
+            adminProfile.Show();
+            this.Close();
+        }
+
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
+        }
     }
 }

@@ -116,7 +116,7 @@
             lb_welcomeLogin.AutoSize = true;
             lb_welcomeLogin.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
             lb_welcomeLogin.ForeColor = Color.FromArgb(32, 88, 138);
-            lb_welcomeLogin.Location = new Point(71, 18);
+            lb_welcomeLogin.Location = new Point(87, 18);
             lb_welcomeLogin.Name = "lb_welcomeLogin";
             lb_welcomeLogin.Size = new Size(294, 46);
             lb_welcomeLogin.TabIndex = 14;
@@ -227,6 +227,7 @@
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Margin = new Padding(3, 2, 3, 2);
             Name = "AdminDashBoard";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminDashBoard";
             Load += AdminDashBoard_Load;
             ((System.ComponentModel.ISupportInitialize)lb_close).EndInit();

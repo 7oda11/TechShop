@@ -88,8 +88,22 @@ namespace TecShop.Presentation
 
         private void btn_changePassword_Click(object sender, EventArgs e)
         {
-            AdminChangePasswordForm adminChangePassword=new AdminChangePasswordForm(User);
+            AdminChangePasswordForm adminChangePassword = new AdminChangePasswordForm(User);
             adminChangePassword.Show();
+            this.Close();
+        }
+
+        private void pc_LogOut_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+            this.Close();
+        }
+
+        private void ic_back_Click(object sender, EventArgs e)
+        {
+            AdminDashBoard dashBoard = new AdminDashBoard(User);
+            dashBoard.Show();
             this.Close();
         }
     }
