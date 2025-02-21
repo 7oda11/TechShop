@@ -73,6 +73,36 @@ namespace TecShop.Presentation.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconBack {
+            get {
+                object obj = ResourceManager.GetObject("iconBack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconLogout {
+            get {
+                object obj = ResourceManager.GetObject("iconLogout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconprofile {
+            get {
+                object obj = ResourceManager.GetObject("iconprofile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IconWelcome {
             get {
                 object obj = ResourceManager.GetObject("IconWelcome", resourceCulture);
@@ -86,6 +116,16 @@ namespace TecShop.Presentation.Properties {
         internal static System.Drawing.Bitmap iconWelcomScreen {
             get {
                 object obj = ResourceManager.GetObject("iconWelcomScreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icProfile {
+            get {
+                object obj = ResourceManager.GetObject("icProfile", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

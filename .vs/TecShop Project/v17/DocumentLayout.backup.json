@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Mohamoud\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\userforms\\userprofilemanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\userforms\\userprofilemanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\userforms\\userprofilemanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\userforms\\userprofilemanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|D:\\Mohamoud\\tecshop.presentation\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|d:\\mohamoud\\tecshop.presentation\\userforms\\viewfavoritesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CE656F3D-2956-40E1-84E8-E5FEDD2820CC}|TecShop.Presentation\\TecShop.Presentation.csproj|solutionrelative:tecshop.presentation\\userforms\\viewfavoritesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +59,67 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginScreen.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\LoginScreen.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\LoginScreen.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\LoginScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T14:51:23.576Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfileManagementForm.cs",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs",
+              "RelativeToolTip": "TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAlwG0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T14:43:13.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserProfileManagementForm.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\UserForms\\UserProfileManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T14:41:20.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewFavoritesForm.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\ViewFavoritesForm.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\UserForms\\ViewFavoritesForm.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserForms\\ViewFavoritesForm.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\UserForms\\ViewFavoritesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T14:33:26.975Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDashBoard.cs [Design]",
+              "DocumentMoniker": "D:\\Mohamoud\\TecShop.Presentation\\UserDashBoard.cs",
+              "RelativeDocumentMoniker": "TecShop.Presentation\\UserDashBoard.cs",
+              "ToolTip": "D:\\Mohamoud\\TecShop.Presentation\\UserDashBoard.cs [Design]",
+              "RelativeToolTip": "TecShop.Presentation\\UserDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:16:33.917Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
