@@ -54,10 +54,9 @@
             btn_update.BackColor = Color.FromArgb(123, 143, 164);
             btn_update.Font = new Font("Segoe UI", 10F);
             btn_update.ForeColor = Color.White;
-            btn_update.Location = new Point(460, 215);
-            btn_update.Margin = new Padding(3, 2, 3, 2);
+            btn_update.Location = new Point(526, 287);
             btn_update.Name = "btn_update";
-            btn_update.Size = new Size(119, 55);
+            btn_update.Size = new Size(136, 73);
             btn_update.TabIndex = 38;
             btn_update.Text = "Update";
             btn_update.UseVisualStyleBackColor = false;
@@ -68,10 +67,9 @@
             btn_add.BackColor = Color.FromArgb(123, 143, 164);
             btn_add.Font = new Font("Segoe UI", 10F);
             btn_add.ForeColor = Color.White;
-            btn_add.Location = new Point(326, 215);
-            btn_add.Margin = new Padding(3, 2, 3, 2);
+            btn_add.Location = new Point(373, 287);
             btn_add.Name = "btn_add";
-            btn_add.Size = new Size(119, 55);
+            btn_add.Size = new Size(136, 73);
             btn_add.TabIndex = 37;
             btn_add.Text = "Add";
             btn_add.UseVisualStyleBackColor = false;
@@ -82,10 +80,9 @@
             btn_delete.BackColor = Color.FromArgb(229, 27, 27);
             btn_delete.Font = new Font("Segoe UI", 10F);
             btn_delete.ForeColor = Color.White;
-            btn_delete.Location = new Point(596, 215);
-            btn_delete.Margin = new Padding(3, 2, 3, 2);
+            btn_delete.Location = new Point(681, 287);
             btn_delete.Name = "btn_delete";
-            btn_delete.Size = new Size(119, 55);
+            btn_delete.Size = new Size(136, 73);
             btn_delete.TabIndex = 36;
             btn_delete.Text = "Delete";
             btn_delete.UseVisualStyleBackColor = false;
@@ -95,9 +92,9 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10F);
-            label6.Location = new Point(13, 158);
+            label6.Location = new Point(15, 211);
             label6.Name = "label6";
-            label6.Size = new Size(65, 19);
+            label6.Size = new Size(79, 23);
             label6.TabIndex = 35;
             label6.Text = "Category";
             // 
@@ -105,9 +102,9 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10F);
-            label5.Location = new Point(13, 123);
+            label5.Location = new Point(15, 164);
             label5.Name = "label5";
-            label5.Size = new Size(38, 19);
+            label5.Size = new Size(47, 23);
             label5.TabIndex = 34;
             label5.Text = "Price";
             // 
@@ -115,9 +112,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10F);
-            label1.Location = new Point(10, 80);
+            label1.Location = new Point(11, 107);
             label1.Name = "label1";
-            label1.Size = new Size(97, 19);
+            label1.Size = new Size(121, 23);
             label1.TabIndex = 30;
             label1.Text = "Product Name";
             // 
@@ -125,28 +122,25 @@
             // 
             cb_category.Font = new Font("Segoe UI", 10F);
             cb_category.FormattingEnabled = true;
-            cb_category.Location = new Point(124, 158);
-            cb_category.Margin = new Padding(3, 2, 3, 2);
+            cb_category.Location = new Point(142, 211);
             cb_category.Name = "cb_category";
-            cb_category.Size = new Size(176, 25);
+            cb_category.Size = new Size(201, 31);
             cb_category.TabIndex = 29;
             // 
             // nud_price
             // 
             nud_price.Font = new Font("Segoe UI", 10F);
-            nud_price.Location = new Point(124, 117);
-            nud_price.Margin = new Padding(3, 2, 3, 2);
+            nud_price.Location = new Point(142, 156);
             nud_price.Name = "nud_price";
-            nud_price.Size = new Size(175, 25);
+            nud_price.Size = new Size(200, 30);
             nud_price.TabIndex = 28;
             // 
             // txt_productName
             // 
             txt_productName.Font = new Font("Segoe UI", 10F);
-            txt_productName.Location = new Point(124, 74);
-            txt_productName.Margin = new Padding(3, 2, 3, 2);
+            txt_productName.Location = new Point(142, 99);
             txt_productName.Name = "txt_productName";
-            txt_productName.Size = new Size(176, 25);
+            txt_productName.Size = new Size(201, 30);
             txt_productName.TabIndex = 24;
             // 
             // dvg_products
@@ -154,21 +148,19 @@
             dvg_products.BackgroundColor = Color.White;
             dvg_products.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dvg_products.GridColor = Color.LightGray;
-            dvg_products.Location = new Point(326, 62);
-            dvg_products.Margin = new Padding(3, 2, 3, 2);
+            dvg_products.Location = new Point(373, 83);
             dvg_products.Name = "dvg_products";
             dvg_products.RowHeadersWidth = 51;
-            dvg_products.Size = new Size(389, 145);
+            dvg_products.Size = new Size(445, 193);
             dvg_products.TabIndex = 23;
             dvg_products.RowHeaderMouseDoubleClick += dvg_products_RowHeaderMouseDoubleClick;
             // 
             // lb_close
             // 
             lb_close.Image = Properties.Resources.Close;
-            lb_close.Location = new Point(681, 11);
-            lb_close.Margin = new Padding(3, 2, 3, 2);
+            lb_close.Location = new Point(795, 12);
             lb_close.Name = "lb_close";
-            lb_close.Size = new Size(34, 31);
+            lb_close.Size = new Size(39, 41);
             lb_close.SizeMode = PictureBoxSizeMode.Zoom;
             lb_close.TabIndex = 93;
             lb_close.TabStop = false;
@@ -177,10 +169,9 @@
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(638, 285);
-            pc_LogOut.Margin = new Padding(3, 2, 3, 2);
+            pc_LogOut.Location = new Point(729, 380);
             pc_LogOut.Name = "pc_LogOut";
-            pc_LogOut.Size = new Size(68, 46);
+            pc_LogOut.Size = new Size(78, 61);
             pc_LogOut.SizeMode = PictureBoxSizeMode.Zoom;
             pc_LogOut.TabIndex = 92;
             pc_LogOut.TabStop = false;
@@ -189,9 +180,10 @@
             // ic_back
             // 
             ic_back.Image = Properties.Resources.iconBack;
-            ic_back.Location = new Point(7, 3);
+            ic_back.Location = new Point(8, 4);
+            ic_back.Margin = new Padding(3, 4, 3, 4);
             ic_back.Name = "ic_back";
-            ic_back.Size = new Size(44, 50);
+            ic_back.Size = new Size(50, 67);
             ic_back.SizeMode = PictureBoxSizeMode.Zoom;
             ic_back.TabIndex = 91;
             ic_back.TabStop = false;
@@ -199,10 +191,10 @@
             // 
             // ProductManagementForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 236, 230);
-            ClientSize = new Size(720, 344);
+            ClientSize = new Size(846, 459);
             ControlBox = false;
             Controls.Add(lb_close);
             Controls.Add(pc_LogOut);
@@ -218,7 +210,6 @@
             Controls.Add(txt_productName);
             Controls.Add(dvg_products);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ProductManagementForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ProductManagementForm";

@@ -245,68 +245,61 @@
             dvg_users.BackgroundColor = Color.White;
             dvg_users.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dvg_users.GridColor = Color.LightGray;
-            dvg_users.Location = new Point(12, 57);
-            dvg_users.Margin = new Padding(3, 2, 3, 2);
+            dvg_users.Location = new Point(14, 76);
             dvg_users.Name = "dvg_users";
             dvg_users.RowHeadersWidth = 51;
-            dvg_users.Size = new Size(547, 171);
+            dvg_users.Size = new Size(625, 228);
             dvg_users.TabIndex = 0;
             dvg_users.RowHeaderMouseDoubleClick += dvg_users_RowHeaderMouseDoubleClick;
             // 
             // txt_userName
             // 
             txt_userName.Font = new Font("Segoe UI", 10F);
-            txt_userName.Location = new Point(392, 239);
-            txt_userName.Margin = new Padding(3, 2, 3, 2);
+            txt_userName.Location = new Point(448, 319);
             txt_userName.Name = "txt_userName";
-            txt_userName.Size = new Size(176, 25);
+            txt_userName.Size = new Size(201, 30);
             txt_userName.TabIndex = 2;
             // 
             // txt_email
             // 
             txt_email.Font = new Font("Segoe UI", 10F);
-            txt_email.Location = new Point(86, 242);
-            txt_email.Margin = new Padding(3, 2, 3, 2);
+            txt_email.Location = new Point(98, 323);
             txt_email.Name = "txt_email";
-            txt_email.Size = new Size(176, 25);
+            txt_email.Size = new Size(201, 30);
             txt_email.TabIndex = 1;
             // 
             // txt_password
             // 
             txt_password.Font = new Font("Segoe UI", 10F);
-            txt_password.Location = new Point(392, 281);
-            txt_password.Margin = new Padding(3, 2, 3, 2);
+            txt_password.Location = new Point(448, 375);
             txt_password.Name = "txt_password";
-            txt_password.Size = new Size(176, 25);
+            txt_password.Size = new Size(201, 30);
             txt_password.TabIndex = 4;
             txt_password.UseSystemPasswordChar = true;
             // 
             // txt_address
             // 
             txt_address.Font = new Font("Segoe UI", 10F);
-            txt_address.Location = new Point(86, 284);
-            txt_address.Margin = new Padding(3, 2, 3, 2);
+            txt_address.Location = new Point(98, 379);
             txt_address.Name = "txt_address";
-            txt_address.Size = new Size(176, 25);
+            txt_address.Size = new Size(201, 30);
             txt_address.TabIndex = 3;
             // 
             // nud_age
             // 
             nud_age.Font = new Font("Segoe UI", 10F);
-            nud_age.Location = new Point(86, 352);
-            nud_age.Margin = new Padding(3, 2, 3, 2);
+            nud_age.Location = new Point(98, 469);
             nud_age.Name = "nud_age";
-            nud_age.Size = new Size(176, 25);
+            nud_age.Size = new Size(201, 30);
             nud_age.TabIndex = 5;
             // 
             // cb_role
             // 
             cb_role.Font = new Font("Segoe UI", 10F);
             cb_role.FormattingEnabled = true;
-            cb_role.Location = new Point(392, 348);
-            cb_role.Margin = new Padding(3, 2, 3, 2);
+            cb_role.Location = new Point(448, 464);
             cb_role.Name = "cb_role";
-            cb_role.Size = new Size(176, 25);
+            cb_role.Size = new Size(201, 31);
             cb_role.TabIndex = 6;
             // 
             // label1
@@ -314,9 +307,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10F);
             label1.ForeColor = Color.FromArgb(146, 160, 144);
-            label1.Location = new Point(309, 245);
+            label1.Location = new Point(353, 327);
             label1.Name = "label1";
-            label1.Size = new Size(77, 19);
+            label1.Size = new Size(95, 23);
             label1.TabIndex = 7;
             label1.Text = "User Name";
             // 
@@ -325,9 +318,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 10F);
             label2.ForeColor = Color.FromArgb(146, 160, 144);
-            label2.Location = new Point(12, 245);
+            label2.Location = new Point(14, 327);
             label2.Name = "label2";
-            label2.Size = new Size(41, 19);
+            label2.Size = new Size(51, 23);
             label2.TabIndex = 8;
             label2.Text = "Email";
             // 
@@ -336,9 +329,9 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10F);
             label3.ForeColor = Color.FromArgb(146, 160, 144);
-            label3.Location = new Point(309, 287);
+            label3.Location = new Point(353, 383);
             label3.Name = "label3";
-            label3.Size = new Size(67, 19);
+            label3.Size = new Size(80, 23);
             label3.TabIndex = 9;
             label3.Text = "Password";
             // 
@@ -347,9 +340,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 10F);
             label4.ForeColor = Color.FromArgb(146, 160, 144);
-            label4.Location = new Point(12, 287);
+            label4.Location = new Point(14, 383);
             label4.Name = "label4";
-            label4.Size = new Size(58, 19);
+            label4.Size = new Size(70, 23);
             label4.TabIndex = 10;
             label4.Text = "Address";
             // 
@@ -358,9 +351,9 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 10F);
             label5.ForeColor = Color.FromArgb(146, 160, 144);
-            label5.Location = new Point(12, 358);
+            label5.Location = new Point(14, 477);
             label5.Name = "label5";
-            label5.Size = new Size(33, 19);
+            label5.Size = new Size(40, 23);
             label5.TabIndex = 11;
             label5.Text = "Age";
             // 
@@ -369,9 +362,9 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 10F);
             label6.ForeColor = Color.FromArgb(146, 160, 144);
-            label6.Location = new Point(309, 354);
+            label6.Location = new Point(353, 472);
             label6.Name = "label6";
-            label6.Size = new Size(35, 19);
+            label6.Size = new Size(43, 23);
             label6.TabIndex = 12;
             label6.Text = "Role";
             // 
@@ -380,10 +373,9 @@
             btn_delete.BackColor = Color.FromArgb(229, 27, 27);
             btn_delete.Font = new Font("Segoe UI", 10F);
             btn_delete.ForeColor = Color.White;
-            btn_delete.Location = new Point(565, 189);
-            btn_delete.Margin = new Padding(3, 2, 3, 2);
+            btn_delete.Location = new Point(656, 252);
             btn_delete.Name = "btn_delete";
-            btn_delete.Size = new Size(111, 39);
+            btn_delete.Size = new Size(127, 52);
             btn_delete.TabIndex = 13;
             btn_delete.Text = "Delete";
             btn_delete.UseVisualStyleBackColor = false;
@@ -394,10 +386,9 @@
             btn_add.BackColor = Color.FromArgb(123, 143, 164);
             btn_add.Font = new Font("Segoe UI", 10F);
             btn_add.ForeColor = Color.White;
-            btn_add.Location = new Point(565, 57);
-            btn_add.Margin = new Padding(3, 2, 3, 2);
+            btn_add.Location = new Point(656, 76);
             btn_add.Name = "btn_add";
-            btn_add.Size = new Size(111, 39);
+            btn_add.Size = new Size(127, 52);
             btn_add.TabIndex = 14;
             btn_add.Text = "Add";
             btn_add.UseVisualStyleBackColor = false;
@@ -408,10 +399,9 @@
             btn_update.BackColor = Color.FromArgb(123, 143, 164);
             btn_update.Font = new Font("Segoe UI", 10F);
             btn_update.ForeColor = Color.White;
-            btn_update.Location = new Point(565, 121);
-            btn_update.Margin = new Padding(3, 2, 3, 2);
+            btn_update.Location = new Point(656, 161);
             btn_update.Name = "btn_update";
-            btn_update.Size = new Size(111, 39);
+            btn_update.Size = new Size(127, 52);
             btn_update.TabIndex = 15;
             btn_update.Text = "Update";
             btn_update.UseVisualStyleBackColor = false;
@@ -422,9 +412,10 @@
             checkBox_ShowPass.AutoSize = true;
             checkBox_ShowPass.Font = new Font("Segoe UI", 12F);
             checkBox_ShowPass.ForeColor = Color.FromArgb(146, 160, 144);
-            checkBox_ShowPass.Location = new Point(430, 311);
+            checkBox_ShowPass.Location = new Point(491, 415);
+            checkBox_ShowPass.Margin = new Padding(3, 4, 3, 4);
             checkBox_ShowPass.Name = "checkBox_ShowPass";
-            checkBox_ShowPass.Size = new Size(138, 25);
+            checkBox_ShowPass.Size = new Size(168, 32);
             checkBox_ShowPass.TabIndex = 22;
             checkBox_ShowPass.Text = "Show Password";
             checkBox_ShowPass.UseVisualStyleBackColor = true;
@@ -433,10 +424,9 @@
             // lb_close
             // 
             lb_close.Image = Properties.Resources.Close;
-            lb_close.Location = new Point(642, 2);
-            lb_close.Margin = new Padding(3, 2, 3, 2);
+            lb_close.Location = new Point(781, 3);
             lb_close.Name = "lb_close";
-            lb_close.Size = new Size(34, 31);
+            lb_close.Size = new Size(39, 41);
             lb_close.SizeMode = PictureBoxSizeMode.Zoom;
             lb_close.TabIndex = 68;
             lb_close.TabStop = false;
@@ -445,10 +435,9 @@
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(574, 327);
-            pc_LogOut.Margin = new Padding(3, 2, 3, 2);
+            pc_LogOut.Location = new Point(695, 438);
             pc_LogOut.Name = "pc_LogOut";
-            pc_LogOut.Size = new Size(109, 46);
+            pc_LogOut.Size = new Size(125, 61);
             pc_LogOut.SizeMode = PictureBoxSizeMode.Zoom;
             pc_LogOut.TabIndex = 67;
             pc_LogOut.TabStop = false;
@@ -457,9 +446,10 @@
             // ic_back
             // 
             ic_back.Image = Properties.Resources.iconBack;
-            ic_back.Location = new Point(9, 2);
+            ic_back.Location = new Point(10, 3);
+            ic_back.Margin = new Padding(3, 4, 3, 4);
             ic_back.Name = "ic_back";
-            ic_back.Size = new Size(44, 50);
+            ic_back.Size = new Size(50, 67);
             ic_back.SizeMode = PictureBoxSizeMode.Zoom;
             ic_back.TabIndex = 89;
             ic_back.TabStop = false;
@@ -467,10 +457,10 @@
             // 
             // UserManagementForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 236, 230);
-            ClientSize = new Size(728, 432);
+            ClientSize = new Size(832, 576);
             ControlBox = false;
             Controls.Add(ic_back);
             Controls.Add(lb_close);
@@ -493,7 +483,6 @@
             Controls.Add(txt_userName);
             Controls.Add(dvg_users);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "UserManagementForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "User Management";

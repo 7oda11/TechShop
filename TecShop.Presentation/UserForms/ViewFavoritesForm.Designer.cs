@@ -43,10 +43,9 @@
             btn_deleteFav.BackColor = Color.Red;
             btn_deleteFav.Font = new Font("Segoe UI", 10F);
             btn_deleteFav.ForeColor = Color.White;
-            btn_deleteFav.Location = new Point(12, 77);
-            btn_deleteFav.Margin = new Padding(3, 2, 3, 2);
+            btn_deleteFav.Location = new Point(14, 103);
             btn_deleteFav.Name = "btn_deleteFav";
-            btn_deleteFav.Size = new Size(158, 59);
+            btn_deleteFav.Size = new Size(181, 79);
             btn_deleteFav.TabIndex = 62;
             btn_deleteFav.Text = "Delete From Favorites";
             btn_deleteFav.UseVisualStyleBackColor = false;
@@ -57,21 +56,19 @@
             dgv_fav.BackgroundColor = Color.White;
             dgv_fav.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_fav.GridColor = Color.LightGray;
-            dgv_fav.Location = new Point(219, 77);
-            dgv_fav.Margin = new Padding(3, 2, 3, 2);
+            dgv_fav.Location = new Point(250, 103);
             dgv_fav.Name = "dgv_fav";
             dgv_fav.RowHeadersWidth = 51;
-            dgv_fav.Size = new Size(334, 150);
+            dgv_fav.Size = new Size(382, 200);
             dgv_fav.TabIndex = 61;
             dgv_fav.RowHeaderMouseDoubleClick += dgv_fav_RowHeaderMouseDoubleClick;
             // 
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(444, 12);
-            pc_LogOut.Margin = new Padding(3, 2, 3, 2);
+            pc_LogOut.Location = new Point(529, 17);
             pc_LogOut.Name = "pc_LogOut";
-            pc_LogOut.Size = new Size(109, 46);
+            pc_LogOut.Size = new Size(125, 61);
             pc_LogOut.SizeMode = PictureBoxSizeMode.Zoom;
             pc_LogOut.TabIndex = 68;
             pc_LogOut.TabStop = false;
@@ -80,9 +77,10 @@
             // ic_back
             // 
             ic_back.Image = Properties.Resources.iconBack;
-            ic_back.Location = new Point(12, 8);
+            ic_back.Location = new Point(14, 11);
+            ic_back.Margin = new Padding(3, 4, 3, 4);
             ic_back.Name = "ic_back";
-            ic_back.Size = new Size(44, 50);
+            ic_back.Size = new Size(50, 67);
             ic_back.SizeMode = PictureBoxSizeMode.Zoom;
             ic_back.TabIndex = 67;
             ic_back.TabStop = false;
@@ -90,17 +88,16 @@
             // 
             // ViewFavoritesForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 236, 230);
-            ClientSize = new Size(574, 256);
+            ClientSize = new Size(666, 351);
             ControlBox = false;
             Controls.Add(pc_LogOut);
             Controls.Add(ic_back);
             Controls.Add(btn_deleteFav);
             Controls.Add(dgv_fav);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ViewFavoritesForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ViewFavoritesForm";

@@ -23,3 +23,4 @@ D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.dll
 D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\refint\TechShop.DataAccess.dll
 D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.pdb
 D:\Mohamoud\TechShop.DataAccess\obj\Debug\net9.0\ref\TechShop.DataAccess.dll
+D:\ITI\Windows Form & ADO\TecShop Project\TechShop.DataAccess\obj\Debug\net9.0\TechShop.DataAccess.sourcelink.json

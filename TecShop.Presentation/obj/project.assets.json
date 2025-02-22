@@ -1681,23 +1681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SOFT\\.nuget\\packages\\": {},
+    "C:\\Users\\Acer\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mohamoud\\TecShop.Presentation\\TecShop.Presentation.csproj",
+      "projectUniqueName": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\TecShop.Presentation.csproj",
       "projectName": "TecShop.Presentation",
-      "projectPath": "D:\\Mohamoud\\TecShop.Presentation\\TecShop.Presentation.csproj",
-      "packagesPath": "C:\\Users\\SOFT\\.nuget\\packages\\",
-      "outputPath": "D:\\Mohamoud\\TecShop.Presentation\\obj\\",
+      "projectPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\TecShop.Presentation.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TecShop.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\SOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1712,8 +1712,8 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "D:\\Mohamoud\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj": {
-              "projectPath": "D:\\Mohamoud\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj"
+            "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj": {
+              "projectPath": "D:\\ITI\\Windows Form & ADO\\TecShop Project\\TechShop.BusinessLogic\\TechShop.BusinessLogic.csproj"
             }
           }
         }
@@ -1758,7 +1758,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -127,9 +127,6 @@
   <data name="iconLogout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconLogout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ImageSignUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImageSignUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="imageLogin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageLogin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,9 +138,6 @@
   </data>
   <data name="iconBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iconWelcomScreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconWelcomScreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icProfile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icProfile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -49,10 +49,9 @@
             btn_update.BackColor = Color.FromArgb(123, 143, 164);
             btn_update.Font = new Font("Segoe UI", 10F);
             btn_update.ForeColor = Color.White;
-            btn_update.Location = new Point(171, 162);
-            btn_update.Margin = new Padding(3, 2, 3, 2);
+            btn_update.Location = new Point(195, 216);
             btn_update.Name = "btn_update";
-            btn_update.Size = new Size(104, 48);
+            btn_update.Size = new Size(119, 64);
             btn_update.TabIndex = 50;
             btn_update.Text = "Update";
             btn_update.UseVisualStyleBackColor = false;
@@ -63,10 +62,9 @@
             btn_add.BackColor = Color.FromArgb(123, 143, 164);
             btn_add.Font = new Font("Segoe UI", 10F);
             btn_add.ForeColor = Color.White;
-            btn_add.Location = new Point(171, 111);
-            btn_add.Margin = new Padding(3, 2, 3, 2);
+            btn_add.Location = new Point(195, 148);
             btn_add.Name = "btn_add";
-            btn_add.Size = new Size(104, 47);
+            btn_add.Size = new Size(119, 63);
             btn_add.TabIndex = 49;
             btn_add.Text = "Add";
             btn_add.UseVisualStyleBackColor = false;
@@ -77,10 +75,9 @@
             btn_delete.BackColor = Color.FromArgb(229, 27, 27);
             btn_delete.Font = new Font("Segoe UI", 10F);
             btn_delete.ForeColor = Color.White;
-            btn_delete.Location = new Point(171, 217);
-            btn_delete.Margin = new Padding(3, 2, 3, 2);
+            btn_delete.Location = new Point(195, 289);
             btn_delete.Name = "btn_delete";
-            btn_delete.Size = new Size(104, 47);
+            btn_delete.Size = new Size(119, 63);
             btn_delete.TabIndex = 48;
             btn_delete.Text = "Delete";
             btn_delete.UseVisualStyleBackColor = false;
@@ -90,19 +87,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10F);
-            label1.Location = new Point(3, 77);
+            label1.Location = new Point(3, 103);
             label1.Name = "label1";
-            label1.Size = new Size(105, 19);
+            label1.Size = new Size(130, 23);
             label1.TabIndex = 45;
             label1.Text = "Category Name";
             // 
             // txt_categoryName
             // 
             txt_categoryName.Font = new Font("Segoe UI", 10F);
-            txt_categoryName.Location = new Point(114, 71);
-            txt_categoryName.Margin = new Padding(3, 2, 3, 2);
+            txt_categoryName.Location = new Point(130, 95);
             txt_categoryName.Name = "txt_categoryName";
-            txt_categoryName.Size = new Size(161, 25);
+            txt_categoryName.Size = new Size(183, 30);
             txt_categoryName.TabIndex = 42;
             // 
             // dgv_categories
@@ -110,21 +106,19 @@
             dgv_categories.BackgroundColor = Color.White;
             dgv_categories.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_categories.GridColor = Color.LightGray;
-            dgv_categories.Location = new Point(296, 71);
-            dgv_categories.Margin = new Padding(3, 2, 3, 2);
+            dgv_categories.Location = new Point(338, 95);
             dgv_categories.Name = "dgv_categories";
             dgv_categories.RowHeadersWidth = 51;
-            dgv_categories.Size = new Size(277, 193);
+            dgv_categories.Size = new Size(317, 257);
             dgv_categories.TabIndex = 41;
             dgv_categories.RowHeaderMouseDoubleClick += dgv_categories_RowHeaderMouseDoubleClick;
             // 
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(525, 271);
-            pc_LogOut.Margin = new Padding(3, 2, 3, 2);
+            pc_LogOut.Location = new Point(600, 394);
             pc_LogOut.Name = "pc_LogOut";
-            pc_LogOut.Size = new Size(68, 46);
+            pc_LogOut.Size = new Size(78, 61);
             pc_LogOut.SizeMode = PictureBoxSizeMode.Zoom;
             pc_LogOut.TabIndex = 89;
             pc_LogOut.TabStop = false;
@@ -133,9 +127,10 @@
             // ic_back
             // 
             ic_back.Image = Properties.Resources.iconBack;
-            ic_back.Location = new Point(12, 11);
+            ic_back.Location = new Point(14, 15);
+            ic_back.Margin = new Padding(3, 4, 3, 4);
             ic_back.Name = "ic_back";
-            ic_back.Size = new Size(44, 50);
+            ic_back.Size = new Size(50, 67);
             ic_back.SizeMode = PictureBoxSizeMode.Zoom;
             ic_back.TabIndex = 88;
             ic_back.TabStop = false;
@@ -144,20 +139,19 @@
             // lb_close
             // 
             lb_close.Image = Properties.Resources.Close;
-            lb_close.Location = new Point(559, 11);
-            lb_close.Margin = new Padding(3, 2, 3, 2);
+            lb_close.Location = new Point(626, 15);
             lb_close.Name = "lb_close";
-            lb_close.Size = new Size(34, 31);
+            lb_close.Size = new Size(39, 41);
             lb_close.SizeMode = PictureBoxSizeMode.Zoom;
             lb_close.TabIndex = 90;
             lb_close.TabStop = false;
             // 
             // CategoryManagementForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(247, 236, 230);
-            ClientSize = new Size(592, 328);
+            ClientSize = new Size(677, 467);
             ControlBox = false;
             Controls.Add(lb_close);
             Controls.Add(pc_LogOut);
@@ -169,7 +163,6 @@
             Controls.Add(txt_categoryName);
             Controls.Add(dgv_categories);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "CategoryManagementForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CategoryManagementForm";

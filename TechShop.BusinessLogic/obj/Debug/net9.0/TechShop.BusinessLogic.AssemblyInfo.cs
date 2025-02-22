@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechShop.BusinessLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eeb8fe4e43ded0099c2df57273127a6c831fd16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae2f57b3f62ae9fde8bead0fd095fc8cf8d00a6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechShop.BusinessLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechShop.BusinessLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

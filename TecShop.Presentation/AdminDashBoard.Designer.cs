@@ -116,9 +116,9 @@
             lb_welcomeLogin.AutoSize = true;
             lb_welcomeLogin.Font = new Font("Segoe UI", 25F, FontStyle.Bold);
             lb_welcomeLogin.ForeColor = Color.FromArgb(32, 88, 138);
-            lb_welcomeLogin.Location = new Point(87, 18);
+            lb_welcomeLogin.Location = new Point(99, 24);
             lb_welcomeLogin.Name = "lb_welcomeLogin";
-            lb_welcomeLogin.Size = new Size(294, 46);
+            lb_welcomeLogin.Size = new Size(365, 57);
             lb_welcomeLogin.TabIndex = 14;
             lb_welcomeLogin.Text = "Welcome Admin!";
             // 
@@ -129,10 +129,9 @@
             btn_manageUsers.FlatStyle = FlatStyle.Flat;
             btn_manageUsers.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_manageUsers.ForeColor = Color.White;
-            btn_manageUsers.Location = new Point(33, 92);
-            btn_manageUsers.Margin = new Padding(3, 2, 3, 2);
+            btn_manageUsers.Location = new Point(57, 124);
             btn_manageUsers.Name = "btn_manageUsers";
-            btn_manageUsers.Size = new Size(176, 76);
+            btn_manageUsers.Size = new Size(201, 101);
             btn_manageUsers.TabIndex = 15;
             btn_manageUsers.Text = "Manage Users";
             btn_manageUsers.UseVisualStyleBackColor = false;
@@ -145,10 +144,9 @@
             btn_manageProducts.FlatStyle = FlatStyle.Flat;
             btn_manageProducts.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_manageProducts.ForeColor = Color.White;
-            btn_manageProducts.Location = new Point(245, 92);
-            btn_manageProducts.Margin = new Padding(3, 2, 3, 2);
+            btn_manageProducts.Location = new Point(299, 124);
             btn_manageProducts.Name = "btn_manageProducts";
-            btn_manageProducts.Size = new Size(176, 76);
+            btn_manageProducts.Size = new Size(201, 101);
             btn_manageProducts.TabIndex = 16;
             btn_manageProducts.Text = "Manage Products";
             btn_manageProducts.UseVisualStyleBackColor = false;
@@ -161,10 +159,9 @@
             btn_manageCategories.FlatStyle = FlatStyle.Flat;
             btn_manageCategories.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_manageCategories.ForeColor = Color.White;
-            btn_manageCategories.Location = new Point(245, 187);
-            btn_manageCategories.Margin = new Padding(3, 2, 3, 2);
+            btn_manageCategories.Location = new Point(299, 250);
             btn_manageCategories.Name = "btn_manageCategories";
-            btn_manageCategories.Size = new Size(176, 77);
+            btn_manageCategories.Size = new Size(201, 103);
             btn_manageCategories.TabIndex = 17;
             btn_manageCategories.Text = "Manage Categories";
             btn_manageCategories.UseVisualStyleBackColor = false;
@@ -177,10 +174,9 @@
             btn_adminProfile.FlatStyle = FlatStyle.Flat;
             btn_adminProfile.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             btn_adminProfile.ForeColor = Color.White;
-            btn_adminProfile.Location = new Point(33, 187);
-            btn_adminProfile.Margin = new Padding(3, 2, 3, 2);
+            btn_adminProfile.Location = new Point(57, 250);
             btn_adminProfile.Name = "btn_adminProfile";
-            btn_adminProfile.Size = new Size(176, 77);
+            btn_adminProfile.Size = new Size(201, 103);
             btn_adminProfile.TabIndex = 19;
             btn_adminProfile.Text = "Manage Profile";
             btn_adminProfile.UseVisualStyleBackColor = false;
@@ -189,10 +185,9 @@
             // lb_close
             // 
             lb_close.Image = Properties.Resources.Close;
-            lb_close.Location = new Point(387, 18);
-            lb_close.Margin = new Padding(3, 2, 3, 2);
+            lb_close.Location = new Point(521, 24);
             lb_close.Name = "lb_close";
-            lb_close.Size = new Size(34, 31);
+            lb_close.Size = new Size(39, 41);
             lb_close.SizeMode = PictureBoxSizeMode.Zoom;
             lb_close.TabIndex = 68;
             lb_close.TabStop = false;
@@ -201,10 +196,9 @@
             // pc_LogOut
             // 
             pc_LogOut.Image = (Image)resources.GetObject("pc_LogOut.Image");
-            pc_LogOut.Location = new Point(312, 281);
-            pc_LogOut.Margin = new Padding(3, 2, 3, 2);
+            pc_LogOut.Location = new Point(435, 378);
             pc_LogOut.Name = "pc_LogOut";
-            pc_LogOut.Size = new Size(109, 46);
+            pc_LogOut.Size = new Size(125, 61);
             pc_LogOut.SizeMode = PictureBoxSizeMode.Zoom;
             pc_LogOut.TabIndex = 67;
             pc_LogOut.TabStop = false;
@@ -212,10 +206,10 @@
             // 
             // AdminDashBoard
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(436, 338);
+            ClientSize = new Size(572, 451);
             ControlBox = false;
             Controls.Add(lb_close);
             Controls.Add(pc_LogOut);
@@ -225,7 +219,6 @@
             Controls.Add(btn_manageUsers);
             Controls.Add(lb_welcomeLogin);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "AdminDashBoard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminDashBoard";
